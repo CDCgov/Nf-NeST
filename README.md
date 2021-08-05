@@ -23,8 +23,10 @@ NeST is a python based modular framework for consensus based variant calling. Th
 <a id="Prerequisites"></a>
 
 ## Prerequisites
-
-- Download Docker Desktop here `https://www.docker.com/get-started`
+- MAC
+    - Download Docker Desktop here https://www.docker.com/get-started
+- Ubuntu
+    - https://docs.docker.com/engine/install/ubuntu/
     
 <a id="Installation"></a>
 ## Availability of code and installation:
@@ -57,7 +59,8 @@ NeST is a python based modular framework for consensus based variant calling. Th
    10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
    To execute Nf-NeST pipeline on this samples, run this command line
    ```
-   docker run -v $(pwd)/testrun:/data/testrun -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf 
+   -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
    ```
 2. Executing your own analysis using Nf-NeST:   
       
@@ -66,7 +69,9 @@ NeST is a python based modular framework for consensus based variant calling. Th
    Nf-NeST can be executed on your own dataset using the following command:
 
       ```
-      docker run -v $(pwd)/inputfiles:/data/inputfiles -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
+      docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf 
+      -c ./inputfiles/nextflow.config 
+      -with-report ./inputfiles/output/output.html
       ```
 
       The details about the required input formats are listed in the next section.
