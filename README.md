@@ -57,7 +57,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
    To execute Nf-NeST pipeline on this samples, run this command line
    ```
-   docker run -v $(pwd)/testrun:/data/testrun -ti supark87/nfnest:latest ./nextflow run nfNeST.nf -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   docker run -v $(pwd)/testrun:/data/testrun -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
    ```
 2. Executing your own analysis using Nf-NeST:   
       
