@@ -69,7 +69,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    Nf-NeST can be executed on your own dataset using the following command:
 
       ```
-      docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf\
+      docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \ 
       -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
       ```
 
