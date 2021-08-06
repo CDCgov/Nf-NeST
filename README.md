@@ -62,7 +62,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \
    -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
    ```
-2. Executing your own analysis using Nf-NeST:   
+## Executing your own analysis using Nf-NeST:   
       
    Copy your inputs under the folder /inputfiles/. By default, configuration file for this folder is in here as 'nextflow.config'
       
