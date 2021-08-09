@@ -56,11 +56,22 @@ NeST is a python based modular framework for consensus based variant calling. Th
    NeST was conceptualized to identify mutations that confer anti-malarial drug resistance in *P.falciparum* (Talundzic et al., 2018). It was also applied for the detection of antibiotic drug resistance in *M.tubercolosis* (Colman et al., 2015). 
 
 1. Test Run
+   - Use Docker
    10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
    To execute Nf-NeST pipeline on this samples, run this command line
    ```
-   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \
-   -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   
+   ```
+- Use singularity (scicomp)
+   ```
+   module load singularity/3.5.3
+   singularity pull docker://supark87/nfnest_singularity
+   singularity run -B $(pwd)/testrun:/data/testrun -B $(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run nfNeST_ver02.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
+
+   ```
+
+
    ```
 ## Executing your own analysis using Nf-NeST:   
       
