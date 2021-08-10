@@ -39,13 +39,18 @@ NeST is a python based modular framework for consensus based variant calling. Th
    ```
 
 2. Installation:
-
-   Nf-NeST comes with a Doker image that can be run pipeline with virtual environment. To setup up Docker image, run the following command from the Nf-NeST directory. 
+    - Docker 
+   Nf-NeST comes with a Doker image that can be run pipeline with virtual environment. To setup up Docker image, run the following command from the Nf-NeST          directory. 
 
    ```
    cd  Nf-NeST
    docker pull supark87/nfnest:latest
    ``` 
+   - Singularity
+   ```
+   cd Nf-NeST
+   singularity pull docker://supark87/nfnest_singularity
+   ```
 3. Input raw sequences name
    
    Paired reads should be separated including 'R1' and 'R2' in sequence name. 
@@ -66,7 +71,6 @@ NeST is a python based modular framework for consensus based variant calling. Th
 - Use singularity (scicomp)
    ```
    module load singularity/3.5.3
-   singularity pull docker://supark87/nfnest_singularity
    singularity run -B $(pwd)/testrun:/data/testrun,$(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run /data/nfNeST_singularity.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
 
    ```
