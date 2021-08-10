@@ -67,7 +67,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    ```
    module load singularity/3.5.3
    singularity pull docker://supark87/nfnest_singularity
-   singularity run -B $(pwd)/testrun:/data/testrun -B $(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run nfNeST_ver02.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
+   singularity run -B $(pwd)/testrun:/data/testrun,$(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run /data/nfNeST_singularity.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
 
    ```
 
