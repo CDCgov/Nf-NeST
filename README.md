@@ -27,6 +27,8 @@ NeST is a python based modular framework for consensus based variant calling. Th
     - Download Docker Desktop here https://www.docker.com/get-started
 - Ubuntu
     - https://docs.docker.com/engine/install/ubuntu/
+- If you use CDC scicomp environment, please follow this instruction(You can check this website with VPN or Citgo) to have access to SCB
+    - https://info.biotech.cdc.gov/info/getting-started-with-scbs/ 
     
 <a id="Installation"></a>
 ## Availability of code and installation:
@@ -46,8 +48,9 @@ NeST is a python based modular framework for consensus based variant calling. Th
    cd  Nf-NeST
    docker pull supark87/nfnest:latest
    ``` 
-   - Singularity
+   - Singularity (in biolinux or aspen)
    ```
+   module load singularity/3.5.3
    cd Nf-NeST
    singularity pull docker://supark87/nfnest_singularity
    ```
