@@ -37,14 +37,14 @@ for a in glob.glob("*.csv"):
                 a['Year']='20'+name[0:2]
                 a['Treatment']=dic3[name[8:9]]
                 a['Day']=name[6:8]
-
+                all_df=all_df.append(a)
 all_df.AAPOS=all_df.AAPOS.astype(str)
 all_df['Reportable mutation with gene']=all_df['Gene']+"_"+all_df['AAref']+all_df['AAPOS']+all_df['AAalt']
 all_df['Reportable mutation']=all_df['AAref']+all_df['AAPOS']+all_df['AAalt']
 all_df.Reportable=all_df.Reportable.str.replace('no','No')
 all_df.Reportable=all_df.Reportable.str.replace('reportable','Yes')
 all_df.Candidates=all_df.Candidates.str.replace('no','No')
-all_df.Candidates=all_df.Candidat/es.str.replace('candidates','Yes')
+all_df.Candidates=all_df.Candidates.str.replace('candidates','Yes')
 all_df['first']=all_df['AAref']+all_df['AAPOS'].astype('str')
 
 voi=pd.read_csv(args.voifile)
@@ -52,25 +52,25 @@ voi['first']=voi["RefAA"]+voi["AAPos"].astype('str')
 merge1=pd.merge(all_df,voi,on=['first'])
 merge1=merge1.drop_duplicates()
 
-merge1.columns=['Gene','BasePOS', 'BaseDepth', 'Ref', 'Alt', 'AAref', 'AAalt',
-       'AAPOS', 'CodonCoverage', 'VAF(DP4)','VAF(AD/DP)','AF','Mutation', 'QD', 'SOR', 'MQ',
-       'MQRankSum', 'Filter', 'FilterDescription', 'Candidates', 'Reportable',
-       'Sample name', 'region', 'Year',
-       'Treatment', 'Day','Reportable mutation with gene','Reportable mutation', 'first','Chr','Gene_y', 
-       'RefAA', 'AAPos', 'AltAA']
+merge1.columns=['Gene', 'BasePOS', 'BaseDepth', 'Agreents', 'Ref', 'Alt', 'AAref',
+       'AAalt', 'AAPOS', 'CodonCoverage', 'VAF(DP4)', 'AF', 'Mutation', 'QD',
+       'SOR', 'MQ', 'MQRankSum', 'Filter', 'FilterDescription', 'Candidates',
+       'Reportable', 'Sample name', 'region', 'Year', 'Treatment', 'Day',
+       'Reportable mutation with gene', 'Reportable mutation', 'first', 'Chr',
+       'Gene_y', 'RefAA', 'AAPos', 'AltAA']
 merge1['AAPOS']=merge1['AAPOS'].astype(str)
 merge1=merge1.reset_index()
 #merge1['Reportable mutation']=merge1['AAref']+merge1['AAPOS']+merge1['AAalt']
 merge1['Reportable mutation']=''
 for i in range(0,len(merge1)):
     if merge1.Mutation[i]=="Wildtype":
-        merge1['Reportable mutation'][i]=merge1['AAPOS'][i]+merge1['AAref'][i]
+        merge1['Reportable mutation'][i]=str(merge1['AAPOS'][i])+str(merge1['AAref'][i])
     else:
-        merge1['Reportable mutation'][i]=merge1['AAPOS'][i]+merge1['AAref'][i]+">"+merge1['AAalt'][i]
+        merge1['Reportable mutation'][i]=str(merge1['AAPOS'][i])+merge1['AAref'][i]+">"+merge1['AAalt'][i]
 merge1['Drug Resistance Marker']=merge1['AAPos'].astype(str)+merge1['RefAA'].astype(str)+">"+merge1['AltAA'].astype(str)
 merge1['Reportable mutation with gene']=merge1['Gene']+"_"+merge1['AAref']+merge1['AAPOS'].astype("str")+merge1['AAalt']
 merge1=merge1[['Gene','BasePOS', 'BaseDepth', 'Ref', 'Alt', 'AAref', 'AAalt',
-       'AAPOS', 'CodonCoverage', 'VAF(DP4)','VAF(AD/DP)','AF','Mutation', 'QD', 'SOR', 'MQ',
+       'AAPOS', 'CodonCoverage', 'VAF(DP4)','AF','Mutation', 'QD', 'SOR', 'MQ',
        'MQRankSum', 'Filter', 'FilterDescription', 'Candidates', 'Reportable',
        'Sample name', 'Reportable mutation with gene','Reportable mutation','Drug Resistance Marker','region','Treatment','Day']]
 
@@ -139,6 +139,25 @@ haplo_table=pd.merge(summary,h_reset,on=["Sample name","Gene"])
 haplo_table=haplo_table[['Sample name','Gene','haplotype']]
 haplo_table=haplo_table.drop_duplicates()
 haplo_table.to_csv("haplotype.csv")
+
+haplotype_count=pd.DataFrame(haplo_table.haplotype.value_counts()).reset_index().drop(0,axis=0)
+haplotype_count.columns=['haplotype','count']
+h2=pd.merge(haplo_table,haplotype_count,on="haplotype",how="left")
+h2['count']=h2['count'].fillna(0)
+h3=h2.pivot_table(columns=['haplotype'],values='count',index=['Sample name','Gene'],aggfunc=lambda x:x).reset_index()
+h3_list=["CVMNK","CVIEK","SVMNT","CVIET","NYSND","NFSND","YFSND","YYSNY"]
+for col in h3_list:
+    if col not in h3.columns:
+        h3[col] = np.nan
+h3=h3.fillna(0)
+h3.head()
+h3['Year']=h3['Sample name'].apply(lambda x:x[0:2])
+h3['region']=h3['Sample name'].apply(lambda x:x[2:6])
+h3['region']=h3.region.apply(lambda x:dic2[x])
+h3['Treatment']=h3['Sample name'].apply(lambda x:dic3[x[8]])
+h3.to_csv("haplotype_count.csv")
+
+
 
 merge1_sub=merge1[['Gene', 'AAref', 'AAalt', 'AAPOS', 
        'Candidates', 'Reportable',

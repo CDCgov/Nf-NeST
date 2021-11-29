@@ -1,0 +1,121 @@
+##gff-version 3
+##source-version geneious 2021.2.2
+##sequence-region	K13	1	2181
+K13	Geneious	cds	1	2181	.	+	0	Name=K13 CDS
+K13	Geneious	gene	1	2181	.	+	.	Name=K13 gene
+K13	Geneious	mrna	1	2181	.	+	.	Name=K13 mRNA
+K13	Geneious	source	1	2181	.	+	.	Name=source Plasmodium falciparum
+K13	Geneious	TrackerSNP	1738	1740	.	.	.	Name=C580Y
+K13	Geneious	TrackerSNP	1681	1683	.	.	.	Name=R561H
+K13	Geneious	TrackerSNP	1627	1629	.	.	.	Name=I543T
+K13	Geneious	TrackerSNP	1615	1617	.	.	.	Name=R539T
+K13	Geneious	TrackerSNP	1477	1479	.	.	.	Name=Y493H
+K13	Geneious	TrackerSNP	1336	1338	.	.	.	Name=F446I
+K13	Geneious	TrackerSNP	1372	1374	.	.	.	Name=N458Y
+K13	Geneious	TrackerSNP	1426	1428	.	.	.	Name=M476I
+K13	Geneious	TrackerSNP	1657	1659	.	.	.	Name=P553L
+K13	Geneious	TrackerSNP	1321	1323	.	.	.	Name=P441L
+K13	Geneious	TrackerSNP	1345	1347	.	.	.	Name=G449A
+K13	Geneious	TrackerSNP	1405	1407	.	.	.	Name=C469F
+K13	Geneious	TrackerSNP	1405	1407	.	.	.	Name=C469Y
+K13	Geneious	TrackerSNP	1441	1443	.	.	.	Name=A481V
+K13	Geneious	TrackerSNP	1543	1545	.	.	.	Name=R515K
+K13	Geneious	TrackerSNP	1579	1581	.	.	.	Name=P527H
+K13	Geneious	TrackerSNP	1609	1611	.	.	.	Name=N537I
+K13	Geneious	TrackerSNP	1612	1614	.	.	.	Name=G538V
+K13	Geneious	TrackerSNP	1702	1704	.	.	.	Name=V568G
+K13	Geneious	TrackerSNP	1720	1722	.	.	.	Name=P574L
+K13	Geneious	TrackerSNP	1732	1734	.	.	.	Name=A578S
+K13	Geneious	TrackerSNP	1750	1752	.	.	.	Name=D584V
+K13	Geneious	TrackerSNP	1864	1866	.	.	.	Name=R622I
+K13	Geneious	TrackerSNP	2023	2025	.	.	.	Name=A675V
+##sequence-region	mitochondrial_genome	1	1131
+mitochondrial_genome	Geneious	CDS	1	1131	.	+	0	Name=CYTB CDS
+mitochondrial_genome	Geneious	extracted region	1	1131	.	+	.	Name=Extracted region from mitochondrial genome
+mitochondrial_genome	Geneious	gene	1	1131	.	+	.	Name=CYTB gene
+mitochondrial_genome	Geneious	source	1	1131	.	+	.	Name=source Plasmodium falciparum
+mitochondrial_genome	Geneious	TrackerSNP	772	774	.	.	.	Name=I258M
+mitochondrial_genome	Geneious	TrackerSNP	802	804	.	.	.	Name=Y268N
+##sequence-region	DHFR	1	1827
+DHFR	Geneious	CDS	1	1827	.	+	0	Name=DHFR-TS CDS
+DHFR	Geneious	gene	1	1827	.	+	.	Name=DHFR-TS gene
+DHFR	Geneious	mRNA	1	1827	.	+	.	Name=DHFR-TS mRNA
+DHFR	Geneious	source	1	1827	.	+	.	Name=source Plasmodium falciparum 3D7
+DHFR	Geneious	TrackerSNP	151	153	.	.	.	Name=N51I
+DHFR	Geneious	TrackerSNP	175	177	.	.	.	Name=C59R
+DHFR	Geneious	TrackerSNP	322	324	.	.	.	Name=S108N
+DHFR	Geneious	TrackerSNP	46	48	.	.	.	Name=A16V
+DHFR	Geneious	TrackerSNP	490	492	.	.	.	Name=I164L
+##sequence-region	DHPS	1	2417
+DHPS	Geneious	Editing History Replacement	1486	1486	.	.	.	Name=G
+DHPS	Geneious	CDS	1	136	.	+	0	Name=DHPS CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.0
+DHPS	Geneious	CDS	313	2181	.	+	0	Name=DHPS CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.0
+DHPS	Geneious	CDS	2302	2417	.	+	0	Name=DHPS CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.0
+DHPS	Geneious	gene	1	2417	.	+	.	Name=DHPS gene
+DHPS	Geneious	mRNA	1	136	.	+	.	Name=DHPS mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.1
+DHPS	Geneious	mRNA	313	2181	.	+	.	Name=DHPS mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.1
+DHPS	Geneious	mRNA	2302	2417	.	+	.	Name=DHPS mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.1
+DHPS	Geneious	source	1	2417	.	+	.	Name=source Plasmodium falciparum 3D7
+DHPS	Geneious	TrackerSNP	1794	1796	.	.	.	Name=K540E
+DHPS	Geneious	TrackerSNP	2013	2015	.	.	.	Name=A613S
+DHPS	Geneious	TrackerSNP	1917	1919	.	.	.	Name=A581G
+DHPS	Geneious	TrackerSNP	1485	1487	.	.	.	Name=A437G
+DHPS	Geneious	TrackerSNP	1482	1484	.	.	.	Name=S436A
+##sequence-region	PfCRT	1	3399
+PfCRT	Geneious	extracted region	1	3399	.	+	.	Name=Extracted region from PfCRT_primersMapped
+PfCRT	Geneious	gene	96	3191	.	+	.	Name=PfCRT gene
+PfCRT	Geneious	mRNA	96	186	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	364	632	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	812	984	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	1157	1289	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	1443	1514	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	1638	1713	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	1810	1892	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	2020	2070	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	2208	2264	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	2413	2505	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	2699	2743	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	2891	2945	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	mRNA	3115	3191	.	+	.	Name=PfCRT mRNA;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139485.2
+PfCRT	Geneious	source	-458503	1043213	.	+	.	Name=source Plasmodium falciparum 3D7
+PfCRT	Geneious	CDS	96	186	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	363	632	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	812	984	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	1157	1289	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	1443	1514	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	1638	1713	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	1810	1892	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	2020	2070	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	2208	2264	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	2413	2505	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	2699	2743	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	2891	2945	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	3115	3191	.	+	0	Name=PfCRT CDS;ID=bzcskIIvfech8+btxCZTp0boHZA.1634560139486.3
+PfCRT	Geneious	CDS	248	317	.	.	.	Name=MS1
+PfCRT	Geneious	TrackerSNP	498	500	.	.	.	Name=K76T
+PfCRT	Geneious	TrackerSNP	495	497	.	.	.	Name=N75E
+PfCRT	Geneious	TrackerSNP	492	494	.	.	.	Name=M74I
+PfCRT	Geneious	TrackerSNP	1281	1283	.	.	.	Name=A220S
+PfCRT	Geneious	TrackerSNP	1710	1712	.	.	.	Name=Q271E
+PfCRT	Geneious	TrackerSNP	2711	2713	.	.	.	Name=R371I
+PfCRT	Geneious	TrackerSNP	2455	2457	.	.	.	Name=C350R
+PfCRT	Geneious	TrackerSNP	2473	2475	.	.	.	Name=I356T
+PfCRT	Geneious	TrackerSNP	2235	2237	.	.	.	Name=N326S
+PfCRT	Geneious	TrackerSNP	486	488	.	.	.	Name=C72S
+PfCRT	Geneious	TrackerSNP	549	551	.	.	.	Name=T93S
+PfCRT	Geneious	TrackerSNP	561	563	.	.	.	Name=H97Y
+PfCRT	Geneious	TrackerSNP	884	886	.	.	.	Name=F145I
+PfCRT	Geneious	TrackerSNP	1275	1277	.	.	.	Name=I218F
+PfCRT	Geneious	TrackerSNP	2434	2436	.	.	.	Name=M343L
+PfCRT	Geneious	TrackerSNP	2464	2466	.	.	.	Name=G353V
+PfCRT	Geneious	TrackerSNP	489	491	.	.	.	Name=V73V
+##sequence-region	PfMDR1	1	4260
+PfMDR1	Geneious	CDS	1	4260	.	+	0	Name=PfMDR1 CDS
+PfMDR1	Geneious	gene	1	4260	.	+	.	Name=PfMDR1 gene
+PfMDR1	Geneious	mRNA	1	4260	.	+	.	Name=PfMDR1 mRNA
+PfMDR1	Geneious	source	1	4260	.	+	.	Name=source Plasmodium falciparum 3D7
+PfMDR1	Geneious	TrackerSNP	256	258	.	.	.	Name=N86Y
+PfMDR1	Geneious	TrackerSNP	550	552	.	.	.	Name=Y184F
+PfMDR1	Geneious	TrackerSNP	3100	3102	.	.	.	Name=S1034C
+PfMDR1	Geneious	TrackerSNP	3124	3126	.	.	.	Name=N1042D
+PfMDR1	Geneious	TrackerSNP	3736	3738	.	.	.	Name=D1246Y

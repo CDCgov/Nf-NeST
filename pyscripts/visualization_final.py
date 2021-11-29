@@ -50,6 +50,7 @@ merge1.columns=['Gene','BasePOS', 'BaseDepth', 'Ref', 'Alt', 'AAref', 'AAalt',
        'Sample name', 'Reportable mutation with gene','Reportable mutation', 'first','Chr','Gene_y', 
        'RefAA', 'AAPos', 'AltAA']
 merge1['AAPOS']=merge1['AAPOS'].astype(str)
+merge1=merge1.reset_index()
 #merge1['Reportable mutation']=merge1['AAref']+merge1['AAPOS']+merge1['AAalt']
 merge1['Reportable mutation']=''
 for i in range(0,len(merge1)):
@@ -103,23 +104,31 @@ merge1_AAonly=merge1_AAonly.drop_duplicates()
 #merge1_AAonly.to_csv("BI_input.csv")
 
 haplo=merge1_AAonly[['Sample name','Gene','AAalt','AAPOS','Reportable mutation','VAF']]
+pd.to_numeric(haplo.VAF,errors='ignore')
+pd.to_numeric(haplo.VAF,errors='coerce')
+
 haplo=haplo[haplo.VAF >= 0.95]
 haplo.AAPOS=haplo.AAPOS.astype('int')
 haplo=haplo.drop_duplicates()
 h=haplo.pivot_table(columns=['Reportable mutation'],values='AAalt',index=['Sample name','Gene'],aggfunc='first')
 h=h.sort_index()
 h.columns=h.columns.sort_values()
-h_list=["C72S","V73V","M74I","N75E","K76T","N86Y","Y184F","S1034C","N1042D","D1246Y","S436A","A437G","K540E","A581G","A613S","N51I","C59R","S108N",
-       "I258M","Y268S","N458Y","Y493H","R539T","I543I","R561H","C580Y"]
+#h_list=["C72S","V73V","M74I","N75E","K76T","N86Y","Y184F","S1034C","N1042D","D1246Y","S436A","A437G","K540E","A581G","A613S","N51I","C59R","S108N",
+#       "I258M","Y268S","N458Y","Y493H","R539T","I543I","R561H","C580Y"]
+#h_list=["72C>S","73V>V","74M>I","75N>E","76K>T","86N>Y","184Y>F","1034S>C","1042N>D","1246D>Y","436S>A","437A>G","540K>E","581A>G",
+#"613A>S","51N>I","59C>R","108S>N","258I>M","268Y>S","458N>Y","493Y>H","539R>T","543I>I","561R>H","580C>Y"]
+h_list=["72C>S","73V>V","74M>I","75N>E","76K>T","86N>Y","184Y>F","1034S>C","1042N>D","1246D>Y","436S>A","437A>G","540K>E","581A>G","613A>S","51N>I","59C>R","108S>N"]
 import numpy as np
 for col in h_list:
     if col not in h.columns:
         h[col] = np.nan
-h=h[["C72S","V73V","M74I","N75E","K76T","N86Y","Y184F","S1034C","N1042D","D1246Y","S436A","A437G","K540E","A581G","A613S","N51I","C59R","S108N"]]
+#h=h[["C72S","V73V","M74I","N75E","K76T","N86Y","Y184F","S1034C","N1042D","D1246Y","S436A","A437G","K540E","A581G","A613S","N51I","C59R","S108N"]]
+h=h[["72C>S","73V>V","74M>I","75N>E","76K>T","86N>Y","184Y>F","1034S>C","1042N>D","1246D>Y","436S>A","437A>G","540K>E","581A>G","613A>S","51N>I","59C>R","108S>N"]]
 h['haplotype']=pd.Series(h.fillna('').values.tolist(),index=h.index).map(lambda x: ''.join(map(str,x)))
 h_reset=h.reset_index()
 haplo_table=pd.merge(summary,h_reset,on=["Sample name","Gene"])
 haplo_table=haplo_table[['Sample name','Gene','haplotype']]
+haplo_table=haplo_table.drop_duplicates()
 haplo_table.to_csv("haplotype.csv")
 
 merge1_sub=merge1[['Gene', 'AAref', 'AAalt', 'AAPOS', 
@@ -155,10 +164,11 @@ a=pd.merge(test3,summary,on="combine_key")[['combine_key']].drop_duplicates()
 bi=a.combine_key.unique()
 summary['flagged']=''
 for i in range(0,len(summary)):
-    if summary.combine_key[i] not in bi:
-        summary['flagged'][i]="Q1"
+    if summary.Mutation[i] != "Wildtype":
+       if summary.combine_key[i] not in bi:
+          summary['flagged'][i]="Q1"
 summary=summary.drop_duplicates()
-bi_out=summary[['Sample name','Gene', 'AAref', 'AAalt', 'AAPOS', 'VAF(DP4)',
+bi_out=summary[['Sample name','Gene', 'AAref', 'AAalt', 'AAPOS', 'VAF(DP4)', 'Mutation',
         'Drug Resistance Marker','QD', 'SOR', 'MQ','MQRankSum', 'Filter', 'FilterDescription',
         'flagged']]
 bi_out.to_csv("PowerBI_input.csv")

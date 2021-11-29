@@ -1,0 +1,112 @@
+FROM adoptopenjdk:8 AS build1
+MAINTAINER Broad Institute DSDE <dsde-engineering@broadinstitute.org>
+#COPY --from=build1 /root/ .
+
+#COPY --from=build2 /working/ /usr/picard/
+ARG build_command=shadowJar
+ARG jar_name=picard.jar
+
+# Install ant, git for building
+RUN apt-get update && \
+    apt-get --no-install-recommends install -y \
+        git \
+        r-base \
+        ant && \
+    apt-get clean autoclean && \
+    apt-get autoremove -y
+RUN git clone https://github.com/broadinstitute/picard.git
+RUN cd /picard/
+WORKDIR /picard/
+
+# Build the distribution jar, clean up everything else
+RUN ./gradlew ${build_command} && \
+    mv build/libs/${jar_name} picard.jar && \
+    ./gradlew clean && \
+    rm -rf src && \
+    rm -rf gradle && \
+    rm -rf .git && \
+    rm gradlew && \
+    rm build.gradle
+
+
+
+
+
+
+
+
+FROM ubuntu:20.10 AS build3
+#ENV workingtools1 /working/workingtools1
+WORKDIR /root/
+COPY --from=build1 /picard/ .
+ENV BBMAP_VERSION 38.20
+ENV BBMAP_DIR /working/bbmap/
+RUN apt-get update && apt-get install -y \
+  curl \
+  unzip \
+  perl \
+  openjdk-11-jre-headless
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y git
+RUN apt-get install -y wget
+RUN apt-get update && apt-get install -y fastqc
+RUN apt-get update && apt-get install -y bowtie2
+RUN apt-get update && apt-get install -y freebayes
+RUN apt-get update \
+  && apt-get install -y python3-pip python3-dev \
+  && cd /usr/local/bin \
+  && ln -s /usr/bin/python3 python \
+  && pip3 install --upgrade pip
+RUN pip3 install matplotlib 
+
+
+RUN wget -O bbmap.tar.gz https://sourceforge.net/projects/bbmap/files/BBMap_${BBMAP_VERSION}.tar.gz/download \
+    && tar -zxf bbmap.tar.gz \
+    && rm bbmap.tar.gz
+
+
+RUN apt-get update && apt-get -y upgrade && \
+	apt-get install -y build-essential wget \
+		libncurses5-dev zlib1g-dev libbz2-dev liblzma-dev libcurl3-dev && \
+	apt-get clean && apt-get purge && \
+	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+
+#Samtools
+RUN wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 && \
+	tar jxf samtools-1.9.tar.bz2 && \
+	rm samtools-1.9.tar.bz2 && \
+	cd samtools-1.9 && \
+	./configure --prefix $(pwd) && \
+	make
+
+RUN wget https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2 && \
+	tar jxf bcftools-1.9.tar.bz2 && \
+	rm bcftools-1.9.tar.bz2 && \
+	cd bcftools-1.9 && \
+	make install
+
+
+ENV package_version 4_3t
+ADD https://downloads.sourceforge.net/project/snpeff/snpEff_v${package_version}_core.zip ./tmp/
+RUN cd ./tmp/ && unzip snpEff_v${package_version}_core.zip \
+         && rm snpEff_v${package_version}_core.zip
+
+
+
+# see https://blogs.oracle.com/java-platform-group/java-se-support-for-docker-cpu-and-memory-limits
+ENV NXF_OPTS='-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap' NXF_HOME=/.nextflow
+
+# copy docker client
+COPY dist/docker /usr/local/bin/docker
+COPY entry.sh /usr/local/bin/entry.sh
+COPY nextflow /usr/local/bin/nextflow
+
+# download runtime
+RUN mkdir /.nextflow \
+ && touch /.nextflow/dockerized \
+ && chmod 755 /usr/local/bin/nextflow \
+ && chmod 755 /usr/local/bin/entry.sh \
+ && nextflow info
+
