@@ -46,7 +46,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
 
    ```
    cd  Nf-NeST
-   docker pull supark87/nfnest:latest
+   docker pull supark87/nfnest:ver03
    ``` 
    - Singularity (in biolinux or aspen)
    ```
@@ -68,7 +68,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
    To execute Nf-NeST pipeline on this samples, run this command line
    ```
-   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:ver03 ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
    
    ```
 - Use singularity (scicomp)
