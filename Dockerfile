@@ -1,6 +1,9 @@
 FROM ubuntu:18.04 
 
-COPY . /data/
+COPY ./pyscripts/ /data/pyscripts
+COPY ./nfNeST_ver03.nf/ /data/nfNeST_ver03.nf
+COPY ./6genes_ver03/ /data/6genes_ver03
+COPY ./testrun/ /data/testrun
 WORKDIR /data/
 
 RUN apt-get update && \
@@ -16,7 +19,9 @@ RUN wget https://github.com/broadinstitute/gatk/releases/download/4.2.0.0/gatk-4
 RUN unzip gatk-4.2.0.0.zip
 RUN curl -s https://get.nextflow.io | bash
 #RUN apt install -y picard-tools
-
+RUN chmod +x /data/nextflow
+RUN chmod 777 /data/nextflow
+RUN mv nextflow /bin/
 RUN wget https://github.com/broadinstitute/picard/releases/download/2.25.6/picard.jar
 RUN chmod 777 picard.jar
 #RUN unzip picard-tools-1.124.zip
@@ -29,9 +34,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+RUN pip3 install -U pip setuptools 
 RUN pip3 install pandas
 RUN pip3 install matplotlib
 RUN pip3 install pysam
+RUN pip3 install xlrd==1.2.0
 ENV BBMAP_VERSION 38.20
 ENV BBMAP_DIR /working/bbmap/
 RUN wget -O bbmap.tar.gz https://sourceforge.net/projects/bbmap/files/BBMap_${BBMAP_VERSION}.tar.gz/download \
@@ -65,4 +72,4 @@ RUN locale-gen "en_US.UTF-8"
 RUN update-locale LC_ALL="en_US.UTF-8"
 ENV LANG="en_US.UTF-8"
 ENV PATH=/data/samtools-1.13/:$PATH
-#ENTRYPOINT ["./nextflow run"]
+ENV PATH=$PATH:/data/nextflow
