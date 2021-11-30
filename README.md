@@ -9,7 +9,7 @@ This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis T
 4. [Your first analysis](#First)
 5. [Input standardization](#inputs)
 6. [Output Description](#outputs)
-
+7. [Update Docker file](#dockerupdate)
 
 <a id="Overview"></a>
 ## Overview of the NeST framework:
@@ -165,4 +165,19 @@ SNP information for each sample with separate file could be found in /inputfiles
 
    - Under development
 
-    
+<a id="dockerupdate"></a>
+
+##Docker Update 
+
+1. Modify "Dockerfile"
+
+2. `docker build .`
+
+3. `docker images' 
+    - Copy the latest imageID 
+
+4. `docker tag <imageID here> <your docker ID>/<name of docker>`
+
+5. `docker push <your docker ID>/<name of docker>`
+
+
