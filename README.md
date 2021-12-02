@@ -181,6 +181,6 @@ SNP information for each sample with separate file could be found in /inputfiles
 3. `docker images`
     - Copy the latest imageID
 
-4. `docker tag <imageID here> <your docker ID>/<name of docker>
+4. `docker tag <imageID here> <your docker ID>/<name of docker>` 
 
 5. `docker push <your docker ID>/<name of docker>`
