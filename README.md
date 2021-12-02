@@ -64,13 +64,11 @@ NeST is a python based modular framework for consensus based variant calling. Th
    NeST was conceptualized to identify mutations that confer anti-malarial drug resistance in *P.falciparum* [Talundzic et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29439965/).
 
 1. Test Run
-   - Use Docker
-   - 10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
+   - Use Docker and 10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
    - To execute Nf-NeST pipeline on this samples, run this command line
 
    ```
    docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:ver03 ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
-
    ```
 
 - Use singularity (scicomp)
@@ -78,7 +76,6 @@ NeST is a python based modular framework for consensus based variant calling. Th
     ```
    module load singularity/3.5.3
    singularity run -B $(pwd)/testrun:/data/testrun,$(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run /data/nfNeST_singularity.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
-
     ```
 
 
@@ -88,7 +85,6 @@ NeST is a python based modular framework for consensus based variant calling. Th
 
    Nf-NeST can be executed on your own dataset using the following command:
 
-<<<<<<< HEAD
   ```
   docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf\ -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
   ```
@@ -99,16 +95,6 @@ NeST is a python based modular framework for consensus based variant calling. Th
   docker run -v $(pwd)/angola/:/data/angola/ -v $(pwd)/ref:/data/ref/ -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c ./angola/nextflow.config
   ```
 
-=======
-      ```
-      docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \
-      -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
-      ```
-      
-      ```
-      docker run -v $(pwd)/angola/:/data/angola/ -v $(pwd)/ref:/data/ref/ -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf             supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c ./angola/nextflow.config  -with-report ./angola/output/angola_output.html
-      ```
->>>>>>> 4358df090a007f12f57cea9d9ce72d9a562ba2f4
 
 
   The details about the required input formats are listed in the next section.
@@ -182,7 +168,7 @@ SNP information for each sample with separate file could be found in /inputfiles
 
    Nf-NeST produces PowerBI input files that would be fed into PowerBI interactive visualization tool.
 
-   - Under development
+   - Currently under development
 
 <a id="update docker"></a>
 
@@ -192,7 +178,7 @@ SNP information for each sample with separate file could be found in /inputfiles
 
 2. `docker build .`
 
-3. `docker images'
+3. `docker images`
     - Copy the latest imageID
 
 4. `docker tag <imageID here> <your docker ID>/<name of docker>
