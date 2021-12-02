@@ -89,8 +89,8 @@ NeST is a python based modular framework for consensus based variant calling. Th
       ```
       docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \
       -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
-      
       ```
+      
       ```
       docker run -v $(pwd)/angola/:/data/angola/ -v $(pwd)/ref:/data/ref/ -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf             supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c ./angola/nextflow.config  -with-report ./angola/output/angola_output.html
       ```
