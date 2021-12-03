@@ -148,7 +148,7 @@ NeST is designed to reduce the amount of user intervention with regards to input
 
 Output file folder will be created under the user specifed `/inputfiles/`. 
 
-Using the `angola` dataset as an example. After the run, the `angola` input directory will have the analysis `outputs`.Output table will be found in `/angola/output/visualization/`. SNP information for each sample with separate file could be found in /angola/output/snpfilter
+Using the `angola` dataset as an example. After the run, the `angola` input directory will have the analysis `outputs`. Output tables will be found in `/angola/output/visualization/`. SNP information for each sample will  be found in `/angola/output/snpfilter`
 
 1. Report files:
 
