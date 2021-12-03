@@ -157,7 +157,7 @@ Using the `angola` dataset as an example. After the run, the `angola` input dire
    |                   File                    |                                          Description                                                                                                      |
    |:------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
    | summary.csv                  | This file contains the calls for each of the variants of interst, for each of the samples. It provides, allele frequency, mutation type, and amino acid sequence at the position of interest |
-   | haplotype.csv | This file lists the haplotype(pseudo-haplotype) that were constructed from alleles that have allele frequency greater or equal to 0.95         |
+   | haplotype.csv | This file lists the haplotype (pseudo-haplotype) that were constructed from alleles that have allele frequency greater or equal to 0.95         |
    | PowerBI_input.csv            | This file will be fed into PowerBI tool as inputfile for interactive visualization                |
    | files under output/combined_json                       | JSON file with sample meta information and variant calls for the all samples in the study                                                                 |
    | output_report*.html          | This file would be created in output directory. You can see whole monitoring process there with failed jobs with time, cpu, and failed reports as needed.                                    |
