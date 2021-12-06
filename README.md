@@ -9,6 +9,7 @@ This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis T
 4. [Your first analysis](#First)
 5. [Input standardization](#inputs)
 6. [Output Description](#outputs)
+7. [Post analysis for pooled and individual sequenced samples](#postanalysis)
 7. [Update Docker file](#dockerupdate)
 
 <a id="Overview"></a>
@@ -68,7 +69,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    - To execute Nf-NeST pipeline on this samples, run this command line
 
    ```
-   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:ver03 ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+   docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf -ti supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
    ```
 
 - Use singularity (scicomp)
@@ -86,7 +87,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    Nf-NeST can be executed on your own dataset using the following command:
 
   ```
-  docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf\ -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
+  docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:latest ./nextflow run nfNeST_ver03.nf\ -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
   ```
 
   Example using the Angola dataset:
@@ -167,6 +168,25 @@ Using the `angola` dataset as an example. After the run, the `angola` input dire
    Nf-NeST produces PowerBI input files that would be fed into PowerBI interactive visualization tool.
 
    - Currently under development
+
+
+
+<a id="postanalysis"></a>
+
+## Post analysis to calculate weighted AF, combine molecular classification information
+
+1. `mkdir postanalysis`
+
+2. Under postananalysis folder, copy PowerBI_input.csv from pooled run and Power_BI_input.csv from individual 
+
+   sequencing run
+
+3. Under postananalysis folder, copy molecular classification file and pool information(name, poolsize) documents
+
+4. Run this command line
+
+`python post_analysis_pool.py python post_analysis_pool.py -indi <PowerBI_input.csv from individual> -pool <PowerBI_input.csv from pooled> -rr <molecular classification table> -poolinfo <pool information table>`
+
 
 <a id="update docker"></a>
 
