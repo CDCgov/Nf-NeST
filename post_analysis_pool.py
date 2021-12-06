@@ -4,7 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import argparse
 import glob
-
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 parser = argparse.ArgumentParser(description='name')
 parser.add_argument('-indi', dest='indi_powerbi', type=str, help="individual PowerBI input")
@@ -31,7 +33,7 @@ all_df=pd.DataFrame()
 # agreements=all_df[['Sample name','Agreents','Gene','AAPOS']]    
 # agreements.columns=['Sample name','Agreement','Gene','AAPOS']
 # pool=pd.read_csv("./output/visualization/PowerBI_input.csv")
-## pool master file from lab
+# # pool master file from lab
 # indi=pd.read_csv("../inputfiles/output2/snpfilter/PowerBI_input.csv")
 # poolname=pd.read_csv("/Users/subinpark/Nf-NeST/gn2_pool_master.csv")
 
@@ -142,7 +144,50 @@ all2_['key']=all2_['Study site']+all2_.Gene+all2_['Drug Resistance Marker']+all2
 #        'markers', 'repeat', 'AMD Sample ID (concatenate) ', 'study_site_pool',
 #        'AA', 'Treatment', 'VAF_final', 'day', 'type', 'key']
 #all3=pd.merge(all2_,agreements,on=['Sample name','Agreement','Gene','AAPOS'])
+all2_['newname']=''
+for i in range(0,len(all2_)):
+    all2_['newname'][i]=all2_.Gene[i]+":"+all2_['Drug Resistance Marker'][i]+"(N="+str(all2_['total_count'][i])+")"
+all2_['site_year']=all2_['Study site']+all2_['Year'].astype(str)
+all2_=all2_[(all2_.Gene == "K13") |(all2_.Gene == "PfCRT") | (all2_.Gene == "PfMDR1")]
 all2_.to_csv("pool_indi.csv")
+
+for a in all2_.site_year.unique():
+    
+    df_sub=all2_[all2_.site_year==a]
+
+#g = sns.FacetGrid(tips, col = 'size',  row = 'smoker', hue = 'day')
+    plt.figure(figsize=(80, 32))
+    total = df_sub.groupby(['newname','AAPOS','Gene','site_year'])['poolsize'].sum().reset_index()
+    wildtype = df_sub[df_sub.type2=="Wildtype"].groupby(['newname','AAPOS','Gene','site_year'])['poolsize'].sum().reset_index()
+    wildtype['poolsize'] = [i / j * 100 for i,j in zip(wildtype['poolsize'], total['poolsize'])]
+    total['poolsize']=[i / j * 100 for i,j in zip(total['poolsize'],total['poolsize'])]
+    wildtype=wildtype.sort_values(by=['Gene','AAPOS'],ascending=True)
+    total=total.sort_values(by=['Gene','AAPOS'],ascending=True)
+#g=sns.FacetGrid(df, col = 'poolsize',  row = 'newname', hue = 'site_year')
+# bar chart 1 -> top bars (group of 'smoker=No')
+    bar1 = sns.barplot(x="poolsize",  y='newname', data=total, color='darkblue')
+# bar chart 2 -> bottom bars (group of 'smoker=Yes')
+    bar2 = sns.barplot(x="poolsize", y='newname', data=wildtype, color='lightblue')
+# add legend
+    top_bar = mpatches.Patch(color='darkblue', label='Mutant')
+    bottom_bar = mpatches.Patch(color='lightblue', label='Wildtype')
+    plt.legend(handles=[top_bar, bottom_bar],loc='upper right',fontsize=29)
+    plt.xlabel("SNP allele frequency")
+    plt.ylabel("")
+    
+    size=50
+    params = {'legend.fontsize': 'large',
+          'figure.figsize': (20,8),
+          'axes.labelsize': size,
+          'axes.titlesize': size,
+          'xtick.labelsize': size*0.75,
+          'ytick.labelsize': size*0.75,
+          'axes.titlepad': 25}
+    plt.rcParams.update(params)
+    plt.tight_layout()
+    
+    plt.savefig(a+".pdf")
+    
 
 test=pd.merge(all2_,final,on=['Gene','Drug Resistance Marker','Year','region','type','key'],how='left').drop_duplicates()
 # test1=test[(test.Gene == "K13") |(test.Gene == "PfCRT") | (test.Gene == "PfMDR1")]
@@ -158,3 +203,4 @@ rr_all['VAF(DP4)']=rr_all['VAF(DP4)'].fillna(0)
 rr_all['day']=rr_all['Sample name'].apply(lambda x:x[6:8])
 rr_all['Year']=rr_all['Sample name'].apply(lambda x:x[0:2]).astype(int)
 rr_all.to_csv("molecular_classification.csv")
+
