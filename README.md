@@ -1,6 +1,6 @@
 # Nextflow Next-generation Sequence-analysis Toolkit (Nf-NeST) : A standardized bioinformatics framework for analyzing SNPs in next-generation sequencing data
 
-This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis Toolkit(NeST) with improved snpfilter function
+This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis Toolkit (NeST) with improved snpfilter function
 : A standardized bioinformatics framework for analyzing SNPs in next-generation sequencing data
 
 1. [Overview of NeST framework](#Overview)
@@ -27,9 +27,9 @@ NeST is a python based modular framework for consensus based variant calling. Th
     - Download Docker Desktop here https://www.docker.com/get-started
 - Ubuntu
     - https://docs.docker.com/engine/install/ubuntu/
-- If you use CDC scicomp environment, please follow this instruction(You can check this website with VPN or Citgo) to have access to SCB
-    - https://info.biotech.cdc.gov/info/getting-started-with-scbs/ 
-    
+- If you use CDC scicomp environment, please follow this instruction (You can check this website with VPN or Citgo) to have access to SCB
+    - https://info.biotech.cdc.gov/info/getting-started-with-scbs/
+
 <a id="Installation"></a>
 ## Availability of code and installation:
 
@@ -41,13 +41,13 @@ NeST is a python based modular framework for consensus based variant calling. Th
    ```
 
 2. Installation:
-    - Docker 
-   Nf-NeST comes with a Doker image that can be run pipeline with virtual environment. To setup up Docker image, run the following command from the Nf-NeST          directory. 
+    - Docker
+   Nf-NeST comes with a Doker image that can be run pipeline with virtual environment. To setup up Docker image, run the following command from the Nf-NeST          directory.
 
    ```
    cd  Nf-NeST
    docker pull supark87/nfnest:ver03
-   ``` 
+   ```
    - Singularity (in biolinux or aspen)
    ```
    module load singularity/3.5.3
@@ -55,50 +55,54 @@ NeST is a python based modular framework for consensus based variant calling. Th
    singularity pull docker://supark87/nfnest_singularity
    ```
 3. Input raw sequences name
-   
-   Paired reads should be separated including 'R1' and 'R2' in sequence name. 
+
+   Paired reads should be separated including 'R1' and 'R2' in sequence name.
 
 <a id="First"></a>
 ## Your first analysis
 
-   NeST was conceptualized to identify mutations that confer anti-malarial drug resistance in *P.falciparum* (Talundzic et al., 2018). It was also applied for the detection of antibiotic drug resistance in *M.tubercolosis* (Colman et al., 2015). 
+   NeST was conceptualized to identify mutations that confer anti-malarial drug resistance in *P.falciparum* [Talundzic et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29439965/).
 
 1. Test Run
-   - Use Docker
-   10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
-   To execute Nf-NeST pipeline on this samples, run this command line
+   - Use Docker and 10 samples of *P.falciparum* from NCBI are located in /testrun/fastq folder.
+   - To execute Nf-NeST pipeline on this samples, run this command line
+
    ```
    docker run -v $(pwd)/testrun:/data/testrun -v $(pwd)/pyscripts:/data/pyscripts -ti supark87/nfnest:ver03 ./nextflow run nfNeST_ver02.nf -c   ./testrun/nextflow1.config -with-report ./testrun/test_output.html
-   
    ```
+
 - Use singularity (scicomp)
-   ```
+
+    ```
    module load singularity/3.5.3
    singularity run -B $(pwd)/testrun:/data/testrun,$(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run /data/nfNeST_singularity.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
+    ```
 
-   ```
 
-
-   ```
 ## Executing your own analysis using Nf-NeST:   
-      
-   Copy your inputs under the folder /inputfiles/. By default, configuration file for this folder is in here as 'nextflow.config'
-      
+
+   Copy your inputs under the folder `inputfiles`. By default, configuration file for this folder is in here as `nextflow.config`
+
    Nf-NeST can be executed on your own dataset using the following command:
 
-      ```
-      docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf \
-      -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
-      
-      docker run -v $(pwd)/angola/:/data/angola/ -v $(pwd)/ref:/data/ref/ -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf             supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c ./angola/nextflow.config
-      ```
+  ```
+  docker run -v $(pwd)/inputfiles:/data/inputfiles -v $(pwd)/pyscripts:/data/pyscripts-ti supark87/nfnest:latest ./nextflow run nfNeST_ver02.nf\ -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html
+  ```
 
-      The details about the required input formats are listed in the next section.
+  Example using the Angola dataset:
+
+  ```
+  docker run -v $(pwd)/angola/:/data/angola/ -v $(pwd)/ref:/data/ref/ -v $(pwd)/pyscripts:/data/pyscripts -v $(pwd)/nfNeST_ver03.nf:/data/nfNeST_ver03.nf supark87/nfnest:ver03 nextflow run nfNeST_ver03.nf -c ./angola/nextflow.config
+  ```
+
+
+
+  The details about the required input formats are listed in the next section.
 
 <a id="inputs"></a>
 ## Input standardization:
 
-NeST is designed to reduce the amount of user intervention with regards to inputs that the user needs to provide. However to enable standardization of inputs across all organisms we require that a particular file format be followed for the three inputs listed below:
+NeST is designed to reduce the amount of user intervention with regards to inputs that the user needs to provide. However, to enable standardization of inputs across all organisms we require that a particular file format be followed for the three inputs listed below:
 
 1. Fastq files:
 
@@ -114,14 +118,15 @@ NeST is designed to reduce the amount of user intervention with regards to input
 
    ```
    #contig start stop gene score strand  CDSstart  CDSstop rbg NoOfExons ExonLengths ExonStarts
-   PfCRT 1	3399	PfCRT	.	+	95	3191	0	13	90,268,172,132,71,75,82,50,56,92,44,54,76,	96,364,812,1157,1443,1638,1810,2020,2208,2413,2699,2891,3115,
+   PfCRT 1	3399	PfCRT	.	+	95	3191	0	13	90,268,172,132,71,75,82,50,56,92,44,54,76,96,364,812,1157,1443,1638,1810,2020,2208,2413,2699,2891,3115,
    MT	1	5967	COXIII	.	-	734	1573	0	1	839,	734,
    MT	1	5967	COL	.	+	1933	3471	0	1	1538,	1933,
    MT	1	5967	CYTOb	.	+	3492	4622	0	1	1130,	3492,
-   PfDHFR	1	1827	PfDHFR	.	+	1	1827	0	1	1827,	1,
-   PfDHPS	1	2417	PfDHPS	.	+	1	2417	0	3	135,1868,115,	1,313,2302,
-   PfK13	1	2181	PfK13	.	+	1	2181	0	1	2181,	1,
-   PfMDR1	1	4260	PfMDR1	.	+	1	4260	0	1	4260,	1,
+   PfDHFR	1	1827	PfDHFR	.	+	1	1827	0	1	1827,1,
+   PfDHPS	1	2417	PfDHPS	.	+	1	2417	0	3	135,1868,115,1,313,2302,
+   PfK13	1	2181	PfK13	.	+	1	2181	0	1	2181,1,
+   PfMDR1	1	4260	PfMDR1	.	+	1	4260	0	1	4260,1,
+
    ```
 
 3. Variant of Interest:
@@ -141,11 +146,9 @@ NeST is designed to reduce the amount of user intervention with regards to input
 <a id="outputs"></a>
 ## Output Description
 
-Output file folder will be created under /inputfiles/
+Output file folder will be created under the user specifed `/inputfiles/`. 
 
-Output table will be found in /inputfiles/output/visualization/ 
-
-SNP information for each sample with separate file could be found in /inputfiles/output/snpfilter
+Using the `angola` dataset as an example. After the run, the `angola` input directory will have the analysis `outputs`. Output tables will be found in `/angola/output/visualization/`. SNP information for each sample will  be found in `/angola/output/snpfilter`
 
 1. Report files:
 
@@ -154,30 +157,28 @@ SNP information for each sample with separate file could be found in /inputfiles
    |                   File                    |                                          Description                                                                                                      |
    |:------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
    | summary.csv                  | This file contains the calls for each of the variants of interst, for each of the samples. It provides, allele frequency, mutation type, and amino acid sequence at the position of interest |
-   | haplotype.csv | This file lists the haplotype(pseudo-haplotype) that were constructed from alleles that have allele frequency greater or equal to 0.95         |
+   | haplotype.csv | This file lists the haplotype (pseudo-haplotype) that were constructed from alleles that have allele frequency greater or equal to 0.95         |
    | PowerBI_input.csv            | This file will be fed into PowerBI tool as inputfile for interactive visualization                |
    | files under output/combined_json                       | JSON file with sample meta information and variant calls for the all samples in the study                                                                 |
    | output_report*.html          | This file would be created in output directory. You can see whole monitoring process there with failed jobs with time, cpu, and failed reports as needed.                                    |
 
-2. PowerBI reports 
+2. PowerBI reports
 
    Nf-NeST produces PowerBI input files that would be fed into PowerBI interactive visualization tool.
 
-   - Under development
+   - Currently under development
 
-<a id="dockerupdate"></a>
+<a id="update docker"></a>
 
-##Docker Update 
+## Updating Docker
 
-1. Modify "Dockerfile"
+1. Modify `Dockerfile`
 
 2. `docker build .`
 
-3. `docker images' 
-    - Copy the latest imageID 
+3. `docker images`
+    - Copy the latest imageID
 
-4. `docker tag <imageID here> <your docker ID>/<name of docker>`
+4. `docker tag <imageID here> <your docker ID>/<name of docker>` 
 
 5. `docker push <your docker ID>/<name of docker>`
-
-
