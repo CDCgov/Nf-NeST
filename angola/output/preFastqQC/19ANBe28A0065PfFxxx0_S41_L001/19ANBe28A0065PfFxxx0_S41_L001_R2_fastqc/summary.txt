@@ -1,0 +1,12 @@
+PASS	Basic Statistics	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Per base sequence quality	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Per tile sequence quality	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Per sequence quality scores	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+FAIL	Per base sequence content	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+FAIL	Per sequence GC content	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Per base N content	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+WARN	Sequence Length Distribution	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Sequence Duplication Levels	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+FAIL	Overrepresented sequences	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+PASS	Adapter Content	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz
+WARN	Kmer Content	19ANBe28A0065PfFxxx0_S41_L001_R2.fastq.gz

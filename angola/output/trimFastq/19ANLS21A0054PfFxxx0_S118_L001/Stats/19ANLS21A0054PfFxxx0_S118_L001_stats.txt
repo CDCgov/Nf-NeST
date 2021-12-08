@@ -1,0 +1,6 @@
+#File	19ANLS21A0054PfFxxx0_S118_L001_R1.fastq.gz	19ANLS21A0054PfFxxx0_S118_L001_R2.fastq.gz
+#Total	11004
+#Matched	4	0.03635%
+#Name	Reads	ReadsPct
+Nextera_transposase_read1	3	0.02726%
+Nextera_transposase_read2	1	0.00909%

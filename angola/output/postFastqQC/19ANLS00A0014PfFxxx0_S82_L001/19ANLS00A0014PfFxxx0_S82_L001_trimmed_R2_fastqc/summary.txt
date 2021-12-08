@@ -1,0 +1,12 @@
+PASS	Basic Statistics	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Per base sequence quality	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Per tile sequence quality	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Per sequence quality scores	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+WARN	Per base sequence content	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+FAIL	Per sequence GC content	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Per base N content	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+WARN	Sequence Length Distribution	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Sequence Duplication Levels	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+WARN	Overrepresented sequences	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+PASS	Adapter Content	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq
+FAIL	Kmer Content	19ANLS00A0014PfFxxx0_S82_L001_trimmed_R2.fastq

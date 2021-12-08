@@ -1,0 +1,406 @@
+CHROM	POS	REF	ALT	VARTYPE	Confidence	Sources	DP4	DP	AD	GEN[*].AD	ANN[*].EFFECT	ANN[*].HGVS_C	ANN[*].HGVS_P
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	c.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	n.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	n.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	n.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	n.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	9	5,3	initiator_codon_variant	intragenic_variant	custom	custom	custom	custom	n.1A>T	p.Met1?
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	c.105C>A	p.Tyr35*
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	n.105C>A	p.Tyr35*
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	n.105C>A	p.Tyr35*
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	n.105C>A	p.Tyr35*
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	n.105C>A	p.Tyr35*
+DHFR	105	C	A	SNP	1	Freebayes	152	150,2	stop_gained	intragenic_variant	custom	custom	custom	custom	n.105C>A	p.Tyr35*
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	c.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,137,85	223	0,260	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.152A>T	p.Asn51Ile
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	c.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,149,99	252	0,291	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.175T>C	p.Cys59Arg
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	c.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,138,111	250	0,398	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.323G>A	p.Ser108Asn
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	c.1827A>T	p.Ter609Tyrext*?
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	n.1827A>T	p.Ter609Tyrext*?
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	n.1827A>T	p.Ter609Tyrext*?
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	n.1827A>T	p.Ter609Tyrext*?
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	n.1827A>T	p.Ter609Tyrext*?
+DHFR	1827	A	T	SNP	1	Freebayes	5	0,4	stop_lost&splice_region_variant	intragenic_variant	custom	custom	custom	custom	n.1827A>T	p.Ter609Tyrext*?
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.102A>G	p.Leu34Leu
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.102A>G	p.Leu34Leu
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.102A>G	p.Leu34Leu
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.102A>G	p.Leu34Leu
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.102A>G	p.Leu34Leu
+DHPS	102	A	G	SNP	1	Freebayes	133	131,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.102A>G	p.Leu34Leu
+DHPS	139	A	G	SNP	1	Freebayes	159	157,2	splice_region_variant&intron_variant	intragenic_variant	custom	custom	n.139A>G
+DHPS	139	A	G	SNP	1	Freebayes	159	157,2	splice_region_variant&intron_variant	intragenic_variant	custom	custom	n.139A>G
+DHPS	139	A	G	SNP	1	Freebayes	159	157,2	splice_region_variant&intron_variant	intragenic_variant	custom	custom	n.139A>G
+DHPS	182	G	C	SNP	1	Freebayes	191	188,3	intron_variant	intragenic_variant	custom	custom	n.182G>C
+DHPS	182	G	C	SNP	1	Freebayes	191	188,3	intron_variant	intragenic_variant	custom	custom	n.182G>C
+DHPS	182	G	C	SNP	1	Freebayes	191	188,3	intron_variant	intragenic_variant	custom	custom	n.182G>C
+DHPS	508	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.508T>A	p.Leu170Ile
+DHPS	685	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.685T>A	p.Leu170Ile
+DHPS	685	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.685T>A	p.Leu170Ile
+DHPS	685	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.685T>A	p.Leu170Ile
+DHPS	685	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.685T>A	p.Leu170Ile
+DHPS	685	T	A	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.685T>A	p.Leu170Ile
+DHPS	609	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.609A>T	p.Lys203Asn
+DHPS	786	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.786A>T	p.Lys203Asn
+DHPS	786	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.786A>T	p.Lys203Asn
+DHPS	786	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.786A>T	p.Lys203Asn
+DHPS	786	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.786A>T	p.Lys203Asn
+DHPS	786	A	T	SNP	1	Freebayes	176	174,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.786A>T	p.Lys203Asn
+DHPS	678	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.678G>T	p.Trp226Cys
+DHPS	855	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.855G>T	p.Trp226Cys
+DHPS	855	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.855G>T	p.Trp226Cys
+DHPS	855	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.855G>T	p.Trp226Cys
+DHPS	855	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.855G>T	p.Trp226Cys
+DHPS	855	G	T	SNP	1	Freebayes	141	139,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.855G>T	p.Trp226Cys
+DHPS	780	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.780A>G	p.Ile260Met
+DHPS	957	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.957A>G	p.Ile260Met
+DHPS	957	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.957A>G	p.Ile260Met
+DHPS	957	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.957A>G	p.Ile260Met
+DHPS	957	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.957A>G	p.Ile260Met
+DHPS	957	A	G	SNP	1	Freebayes	121	119,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.957A>G	p.Ile260Met
+DHPS	1309	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	c.1309C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,87,122	214	0,296	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	custom	n.1486C>G	p.Leu437Val
+DHPS	1310	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	c.1310A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,87,122	214	0,296	synonymous_variant	intragenic_variant	custom	custom	custom	custom	custom	n.1487A>T	p.Leu437Leu
+DHPS	1582	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	c.1582T>C	p.Ter528Glnext*?
+DHPS	1759	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	n.1759T>C	p.Ter528Glnext*?
+DHPS	1759	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	n.1759T>C	p.Ter528Glnext*?
+DHPS	1759	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	n.1759T>C	p.Ter528Glnext*?
+DHPS	1759	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	n.1759T>C	p.Ter528Glnext*?
+DHPS	1759	T	C	SNP	1	Freebayes	160	158,2	stop_lost	intragenic_variant	custom	custom	custom	custom	n.1759T>C	p.Ter528Glnext*?
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.268A>G	p.Ser90Gly
+K13	2448	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*2448A>G	p.Ser90Gly
+K13	2448	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*2448A>G	p.Ser90Gly
+K13	2448	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*2448A>G	p.Ser90Gly
+K13	2353	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*2353A>G	p.Ser90Gly
+K13	267	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*267A>G	p.Ser90Gly
+K13	172	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*172A>G	p.Ser90Gly
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.268A>G	p.Ser90Gly
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.268A>G	p.Ser90Gly
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.268A>G	p.Ser90Gly
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.268A>G	p.Ser90Gly
+K13	268	A	G	SNP	1	Freebayes	51	49,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.268A>G	p.Ser90Gly
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.902G>T	p.Arg301Leu
+K13	3082	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3082G>T	p.Arg301Leu
+K13	3082	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3082G>T	p.Arg301Leu
+K13	3082	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3082G>T	p.Arg301Leu
+K13	2987	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*2987G>T	p.Arg301Leu
+K13	901	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*901G>T	p.Arg301Leu
+K13	806	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*806G>T	p.Arg301Leu
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.902G>T	p.Arg301Leu
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.902G>T	p.Arg301Leu
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.902G>T	p.Arg301Leu
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.902G>T	p.Arg301Leu
+K13	902	G	T	SNP	1	Freebayes	52	50,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.902G>T	p.Arg301Leu
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1163G>A	p.Arg388Lys
+K13	3343	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3343G>A	p.Arg388Lys
+K13	3343	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3343G>A	p.Arg388Lys
+K13	3343	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3343G>A	p.Arg388Lys
+K13	3248	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3248G>A	p.Arg388Lys
+K13	1162	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1162G>A	p.Arg388Lys
+K13	1067	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1067G>A	p.Arg388Lys
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1163G>A	p.Arg388Lys
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1163G>A	p.Arg388Lys
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1163G>A	p.Arg388Lys
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1163G>A	p.Arg388Lys
+K13	1163	G	A	SNP	1	Freebayes	104	102,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1163G>A	p.Arg388Lys
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1515A>G	p.Leu505Leu
+K13	3695	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3695A>G	p.Leu505Leu
+K13	3695	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3695A>G	p.Leu505Leu
+K13	3695	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3695A>G	p.Leu505Leu
+K13	3600	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3600A>G	p.Leu505Leu
+K13	1514	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1514A>G	p.Leu505Leu
+K13	1419	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1419A>G	p.Leu505Leu
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1515A>G	p.Leu505Leu
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1515A>G	p.Leu505Leu
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1515A>G	p.Leu505Leu
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1515A>G	p.Leu505Leu
+K13	1515	A	G	SNP	1	Freebayes	197	195,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1515A>G	p.Leu505Leu
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1625G>A	p.Cys542Tyr
+K13	3805	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3805G>A	p.Cys542Tyr
+K13	3805	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3805G>A	p.Cys542Tyr
+K13	3805	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3805G>A	p.Cys542Tyr
+K13	3710	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3710G>A	p.Cys542Tyr
+K13	1624	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1624G>A	p.Cys542Tyr
+K13	1529	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1529G>A	p.Cys542Tyr
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1625G>A	p.Cys542Tyr
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1625G>A	p.Cys542Tyr
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1625G>A	p.Cys542Tyr
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1625G>A	p.Cys542Tyr
+K13	1625	G	A	SNP	1	Freebayes	191	189,2	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1625G>A	p.Cys542Tyr
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1677T>C	p.Asp559Asp
+K13	3857	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3857T>C	p.Asp559Asp
+K13	3857	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3857T>C	p.Asp559Asp
+K13	3857	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3857T>C	p.Asp559Asp
+K13	3762	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3762T>C	p.Asp559Asp
+K13	1676	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1676T>C	p.Asp559Asp
+K13	1581	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1581T>C	p.Asp559Asp
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1677T>C	p.Asp559Asp
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1677T>C	p.Asp559Asp
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1677T>C	p.Asp559Asp
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1677T>C	p.Asp559Asp
+K13	1677	T	C	SNP	1	Freebayes	165	163,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1677T>C	p.Asp559Asp
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1713G>A	p.Leu571Leu
+K13	3893	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3893G>A	p.Leu571Leu
+K13	3893	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3893G>A	p.Leu571Leu
+K13	3893	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3893G>A	p.Leu571Leu
+K13	3798	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3798G>A	p.Leu571Leu
+K13	1712	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1712G>A	p.Leu571Leu
+K13	1617	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1617G>A	p.Leu571Leu
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1713G>A	p.Leu571Leu
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1713G>A	p.Leu571Leu
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1713G>A	p.Leu571Leu
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1713G>A	p.Leu571Leu
+K13	1713	G	A	SNP	1	Freebayes	183	181,2	synonymous_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1713G>A	p.Leu571Leu
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.1755T>A	p.Asn585Lys
+K13	3935	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3935T>A	p.Asn585Lys
+K13	3935	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3935T>A	p.Asn585Lys
+K13	3935	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3935T>A	p.Asn585Lys
+K13	3840	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*3840T>A	p.Asn585Lys
+K13	1754	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1754T>A	p.Asn585Lys
+K13	1659	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	c.*1659T>A	p.Asn585Lys
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1755T>A	p.Asn585Lys
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1755T>A	p.Asn585Lys
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1755T>A	p.Asn585Lys
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1755T>A	p.Asn585Lys
+K13	1755	T	A	SNP	1	Freebayes	192	188,4	missense_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	custom	custom	custom	custom	n.1755T>A	p.Asn585Lys
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.129T>C	p.Phe43Phe
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.129T>C	p.Phe43Phe
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.129T>C	p.Phe43Phe
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.129T>C	p.Phe43Phe
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.129T>C	p.Phe43Phe
+mitochondrial_genome	129	T	C	SNP	1	Freebayes	38	36,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.129T>C	p.Phe43Phe
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.423G>T	p.Met141Ile
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.423G>T	p.Met141Ile
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.423G>T	p.Met141Ile
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.423G>T	p.Met141Ile
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.423G>T	p.Met141Ile
+mitochondrial_genome	423	G	T	SNP	1	Freebayes	113	111,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.423G>T	p.Met141Ile
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.484G>A	p.Asp162Asn
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.484G>A	p.Asp162Asn
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.484G>A	p.Asp162Asn
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.484G>A	p.Asp162Asn
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.484G>A	p.Asp162Asn
+mitochondrial_genome	484	G	A	SNP	1	Freebayes	118	116,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.484G>A	p.Asp162Asn
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.1030A>T	p.Met344Leu
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1030A>T	p.Met344Leu
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1030A>T	p.Met344Leu
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1030A>T	p.Met344Leu
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1030A>T	p.Met344Leu
+mitochondrial_genome	1030	A	T	SNP	1	Freebayes	197	195,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1030A>T	p.Met344Leu
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.1091T>C	p.Phe364Ser
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1091T>C	p.Phe364Ser
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1091T>C	p.Phe364Ser
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1091T>C	p.Phe364Ser
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1091T>C	p.Phe364Ser
+mitochondrial_genome	1091	T	C	SNP	1	Freebayes	182	180,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1091T>C	p.Phe364Ser
+mitochondrial_genome	397	G	A	SNP	1	Freebayes	152	150,2	downstream_gene_variant	intergenic_region	c.*397G>A
+mitochondrial_genome	1528	G	A	SNP	1	Freebayes	152	150,2	downstream_gene_variant	intergenic_region	n.1528G>A
+mitochondrial_genome	561	G	A	SNP	3	Samtools,GATK,Freebayes	2,1,89,76	170	3,186	downstream_gene_variant	intergenic_region	c.*561G>A
+mitochondrial_genome	1692	G	A	SNP	3	Samtools,GATK,Freebayes	2,1,89,76	170	3,186	downstream_gene_variant	intergenic_region	n.1692G>A
+mitochondrial_genome	566	A	G	SNP	1	Freebayes	189	187,2	downstream_gene_variant	intergenic_region	c.*566A>G
+mitochondrial_genome	1697	A	G	SNP	1	Freebayes	189	187,2	downstream_gene_variant	intergenic_region	n.1697A>G
+mitochondrial_genome	598	T	C	SNP	1	Freebayes	197	195,2	downstream_gene_variant	intergenic_region	c.*598T>C
+mitochondrial_genome	1729	T	C	SNP	1	Freebayes	197	195,2	downstream_gene_variant	intergenic_region	n.1729T>C
+mitochondrial_genome	607	C	T	SNP	1	Freebayes	195	193,2	downstream_gene_variant	intergenic_region	c.*607C>T
+mitochondrial_genome	1738	C	T	SNP	1	Freebayes	195	193,2	downstream_gene_variant	intergenic_region	n.1738C>T
+mitochondrial_genome	1010	T	C	SNP	1	Freebayes	158	156,2	downstream_gene_variant	intergenic_region	c.*1010T>C
+mitochondrial_genome	2141	T	C	SNP	1	Freebayes	158	156,2	downstream_gene_variant	intergenic_region	n.2141T>C
+mitochondrial_genome	1156	T	C	SNP	1	Freebayes	136	134,2	downstream_gene_variant	intergenic_region	c.*1156T>C
+mitochondrial_genome	2287	T	C	SNP	1	Freebayes	136	134,2	downstream_gene_variant	intergenic_region	n.2287T>C
+mitochondrial_genome	1206	T	C	SNP	1	Freebayes	139	137,2	downstream_gene_variant	intergenic_region	c.*1206T>C
+mitochondrial_genome	2337	T	C	SNP	1	Freebayes	139	137,2	downstream_gene_variant	intergenic_region	n.2337T>C
+mitochondrial_genome	1519	A	G	SNP	1	Freebayes	169	167,2	downstream_gene_variant	intergenic_region	c.*1519A>G
+mitochondrial_genome	2650	A	G	SNP	1	Freebayes	169	167,2	downstream_gene_variant	intergenic_region	n.2650A>G
+mitochondrial_genome	1749	T	C	SNP	1	Freebayes	175	173,2	downstream_gene_variant	intergenic_region	c.*1749T>C
+mitochondrial_genome	2880	T	C	SNP	1	Freebayes	175	173,2	downstream_gene_variant	intergenic_region	n.2880T>C
+mitochondrial_genome	1902	A	G	SNP	1	Freebayes	195	191,4	downstream_gene_variant	intergenic_region	c.*1902A>G
+mitochondrial_genome	3033	A	G	SNP	1	Freebayes	195	191,4	downstream_gene_variant	intergenic_region	n.3033A>G
+mitochondrial_genome	2370	T	C	SNP	1	Freebayes	124	122,2	downstream_gene_variant	intergenic_region	c.*2370T>C
+mitochondrial_genome	3501	T	C	SNP	1	Freebayes	124	122,2	downstream_gene_variant	intergenic_region	n.3501T>C
+mitochondrial_genome	2414	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,46,50	101	1,132	downstream_gene_variant	intergenic_region	c.*2414T>C
+mitochondrial_genome	3545	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,46,50	101	1,132	downstream_gene_variant	intergenic_region	n.3545T>C
+mitochondrial_genome	2542	T	A	SNP	1	Freebayes	136	134,2	downstream_gene_variant	intergenic_region	c.*2542T>A
+mitochondrial_genome	3673	T	A	SNP	1	Freebayes	136	134,2	downstream_gene_variant	intergenic_region	n.3673T>A
+mitochondrial_genome	2687	A	G	SNP	1	Freebayes	161	159,2	downstream_gene_variant	intergenic_region	c.*2687A>G
+mitochondrial_genome	3818	A	G	SNP	1	Freebayes	161	159,2	downstream_gene_variant	intergenic_region	n.3818A>G
+mitochondrial_genome	2727	T	C	SNP	1	Freebayes	158	156,2	downstream_gene_variant	intergenic_region	c.*2727T>C
+mitochondrial_genome	3858	T	C	SNP	1	Freebayes	158	156,2	downstream_gene_variant	intergenic_region	n.3858T>C
+mitochondrial_genome	2921	T	C	SNP	1	Freebayes	133	131,2	downstream_gene_variant	intergenic_region	c.*2921T>C
+mitochondrial_genome	4052	T	C	SNP	1	Freebayes	133	131,2	downstream_gene_variant	intergenic_region	n.4052T>C
+mitochondrial_genome	3392	T	A	SNP	1	Freebayes	131	129,2	downstream_gene_variant	intergenic_region	c.*3392T>A
+mitochondrial_genome	4523	T	A	SNP	1	Freebayes	131	129,2	downstream_gene_variant	intergenic_region	n.4523T>A
+mitochondrial_genome	3821	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,41,35	82	0,85	downstream_gene_variant	intergenic_region	c.*3821T>C
+mitochondrial_genome	4952	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,41,35	82	0,85	downstream_gene_variant	intergenic_region	n.4952T>C
+mitochondrial_genome	3952	C	A	SNP	1	Freebayes	93	91,2	downstream_gene_variant	intergenic_region	c.*3952C>A
+mitochondrial_genome	5083	C	A	SNP	1	Freebayes	93	91,2	downstream_gene_variant	intergenic_region	n.5083C>A
+mitochondrial_genome	4404	G	T	SNP	1	Freebayes	53	51,2	downstream_gene_variant	intergenic_region	c.*4404G>T
+mitochondrial_genome	5535	G	T	SNP	1	Freebayes	53	51,2	downstream_gene_variant	intergenic_region	n.5535G>T
+mitochondrial_genome	4602	C	T	SNP	1	Freebayes	58	56,2	downstream_gene_variant	intergenic_region	c.*4602C>T
+mitochondrial_genome	5733	C	T	SNP	1	Freebayes	58	56,2	downstream_gene_variant	intergenic_region	n.5733C>T
+PfCRT	211	G	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	2	0,2	upstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.211G>T
+PfCRT	211	G	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	2	0,2	upstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.211G>T
+PfCRT	211	G	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	2	0,2	upstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.211G>T
+PfCRT	211	G	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	2	0,2	upstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.211G>T
+PfCRT	281	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.281C>G	p.Ser94Cys
+PfCRT	236	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.*236C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	553	C	G	SNP	1	Freebayes	69	67,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.553C>G	p.Ser94Cys
+PfCRT	356	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.356C>T	p.Ser119Leu
+PfCRT	311	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.*311C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	628	C	T	SNP	1	Freebayes	60	58,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.628C>T	p.Ser119Leu
+PfCRT	471	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.471A>G	p.Ser157Ser
+PfCRT	605	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.*605A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	922	A	G	SNP	1	Freebayes	41	39,2	synonymous_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.922A>G	p.Ser157Ser
+PfCRT	476	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.476T>A	p.Val159Asp
+PfCRT	610	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	c.*610T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	927	T	A	SNP	1	Freebayes	40	38,2	missense_variant	downstream_gene_variant	intragenic_variant	custom	custom	custom	custom	custom	n.927T>A	p.Val159Asp
+PfCRT	762	T	A	SNP	1	Freebayes	6	0,6	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*762T>A
+PfCRT	1079	T	A	SNP	1	Freebayes	6	0,6	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1079T>A
+PfCRT	1079	T	A	SNP	1	Freebayes	6	0,6	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1079T>A
+PfCRT	1079	T	A	SNP	1	Freebayes	6	0,6	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1079T>A
+PfCRT	1079	T	A	SNP	1	Freebayes	6	0,6	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1079T>A
+PfCRT	766	T	A	SNP	1	Freebayes	8	0,8	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*766T>A
+PfCRT	1083	T	A	SNP	1	Freebayes	8	0,8	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1083T>A
+PfCRT	1083	T	A	SNP	1	Freebayes	8	0,8	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1083T>A
+PfCRT	1083	T	A	SNP	1	Freebayes	8	0,8	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1083T>A
+PfCRT	1083	T	A	SNP	1	Freebayes	8	0,8	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1083T>A
+PfCRT	1469	G	A	SNP	1	Freebayes	66	62,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*1469G>A
+PfCRT	1786	G	A	SNP	1	Freebayes	66	62,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1786G>A
+PfCRT	1786	G	A	SNP	1	Freebayes	66	62,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1786G>A
+PfCRT	1786	G	A	SNP	1	Freebayes	66	62,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1786G>A
+PfCRT	1786	G	A	SNP	1	Freebayes	66	62,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1786G>A
+PfCRT	1473	G	A	SNP	1	Freebayes	67	65,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*1473G>A
+PfCRT	1790	G	A	SNP	1	Freebayes	67	65,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1790G>A
+PfCRT	1790	G	A	SNP	1	Freebayes	67	65,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1790G>A
+PfCRT	1790	G	A	SNP	1	Freebayes	67	65,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1790G>A
+PfCRT	1790	G	A	SNP	1	Freebayes	67	65,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1790G>A
+PfCRT	1477	A	G	SNP	1	Freebayes	66	64,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*1477A>G
+PfCRT	1794	A	G	SNP	1	Freebayes	66	64,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1794A>G
+PfCRT	1794	A	G	SNP	1	Freebayes	66	64,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1794A>G
+PfCRT	1794	A	G	SNP	1	Freebayes	66	64,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1794A>G
+PfCRT	1794	A	G	SNP	1	Freebayes	66	64,2	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.1794A>G
+PfCRT	1876	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	3	0,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	c.*1876A>T
+PfCRT	2193	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	3	0,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.2193A>T
+PfCRT	2193	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	3	0,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.2193A>T
+PfCRT	2193	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	3	0,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.2193A>T
+PfCRT	2193	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	3	0,4	downstream_gene_variant	intron_variant	intragenic_variant	custom	custom	custom	n.2193A>T
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.536C>G	p.Ser179Cys
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.536C>G	p.Ser179Cys
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.536C>G	p.Ser179Cys
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.536C>G	p.Ser179Cys
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.536C>G	p.Ser179Cys
+PfMDR1	536	C	G	SNP	2	GATK,Freebayes	42	39,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.536C>G	p.Ser179Cys
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	c.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,16,20	39	0,44	missense_variant	intragenic_variant	custom	custom	custom	custom	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.1719T>A	p.Ile573Ile
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1719T>A	p.Ile573Ile
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1719T>A	p.Ile573Ile
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1719T>A	p.Ile573Ile
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1719T>A	p.Ile573Ile
+PfMDR1	1719	T	A	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1719T>A	p.Ile573Ile
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.1722A>T	p.Ala574Ala
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1722A>T	p.Ala574Ala
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1722A>T	p.Ala574Ala
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1722A>T	p.Ala574Ala
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1722A>T	p.Ala574Ala
+PfMDR1	1722	A	T	SNP	1	Freebayes	109	107,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1722A>T	p.Ala574Ala
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	c.1948G>A	p.Asp650Asn
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1948G>A	p.Asp650Asn
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1948G>A	p.Asp650Asn
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1948G>A	p.Asp650Asn
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1948G>A	p.Asp650Asn
+PfMDR1	1948	G	A	SNP	1	Freebayes	83	76,7	missense_variant	intragenic_variant	custom	custom	custom	custom	n.1948G>A	p.Asp650Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.1992T>C	p.Asn664Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1992T>C	p.Asn664Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1992T>C	p.Asn664Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1992T>C	p.Asn664Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1992T>C	p.Asn664Asn
+PfMDR1	1992	T	C	SNP	1	Freebayes	76	74,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.1992T>C	p.Asn664Asn
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.2329A>T	p.Ile777Phe
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.2329A>T	p.Ile777Phe
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.2329A>T	p.Ile777Phe
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.2329A>T	p.Ile777Phe
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.2329A>T	p.Ile777Phe
+PfMDR1	2329	A	T	SNP	1	Freebayes	74	72,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.2329A>T	p.Ile777Phe
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.2355T>C	p.Tyr785Tyr
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.2355T>C	p.Tyr785Tyr
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.2355T>C	p.Tyr785Tyr
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.2355T>C	p.Tyr785Tyr
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.2355T>C	p.Tyr785Tyr
+PfMDR1	2355	T	C	SNP	1	Freebayes	73	71,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.2355T>C	p.Tyr785Tyr
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.3538T>C	p.Leu1180Leu
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.3538T>C	p.Leu1180Leu
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.3538T>C	p.Leu1180Leu
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.3538T>C	p.Leu1180Leu
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.3538T>C	p.Leu1180Leu
+PfMDR1	3538	T	C	SNP	1	Freebayes	27	25,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.3538T>C	p.Leu1180Leu
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.3803A>G	p.Asn1268Ser
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.3803A>G	p.Asn1268Ser
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.3803A>G	p.Asn1268Ser
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.3803A>G	p.Asn1268Ser
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.3803A>G	p.Asn1268Ser
+PfMDR1	3803	A	G	SNP	1	Freebayes	65	63,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.3803A>G	p.Asn1268Ser
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	c.4047A>G	p.Leu1349Leu
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.4047A>G	p.Leu1349Leu
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.4047A>G	p.Leu1349Leu
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.4047A>G	p.Leu1349Leu
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.4047A>G	p.Leu1349Leu
+PfMDR1	4047	A	G	SNP	1	Freebayes	43	41,2	synonymous_variant	intragenic_variant	custom	custom	custom	custom	n.4047A>G	p.Leu1349Leu
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	c.4211T>C	p.Leu1404Ser
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.4211T>C	p.Leu1404Ser
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.4211T>C	p.Leu1404Ser
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.4211T>C	p.Leu1404Ser
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.4211T>C	p.Leu1404Ser
+PfMDR1	4211	T	C	SNP	1	Freebayes	2	0,2	missense_variant	intragenic_variant	custom	custom	custom	custom	n.4211T>C	p.Leu1404Ser

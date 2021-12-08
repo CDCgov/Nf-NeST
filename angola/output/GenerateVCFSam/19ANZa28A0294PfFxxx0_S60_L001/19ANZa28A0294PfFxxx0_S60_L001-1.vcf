@@ -1,0 +1,45 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.9+htslib-1.9
+##bcftoolsCommand=mpileup -f New_6_genes.fa 19ANZa28A0294PfFxxx0_S60_L001_SR.bam
+##reference=file://New_6_genes.fa
+##contig=<ID=DHFR,length=1827>
+##contig=<ID=DHPS,length=2417>
+##contig=<ID=K13,length=2181>
+##contig=<ID=mitochondrial_genome,length=5967>
+##contig=<ID=PfCRT,length=3399>
+##contig=<ID=PfMDR1,length=4260>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=ICB,Number=1,Type=Float,Description="Inbreeding Coefficient Binomial test (bigger is better)">
+##INFO=<ID=HOB,Number=1,Type=Float,Description="Bias in the number of HOMs number (smaller is better)">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.9+htslib-1.9
+##bcftools_callCommand=call -vm 19ANZa28A0294PfFxxx0_S60_L001.mpileup; Date=Fri Dec  3 21:31:59 2021
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	19ANZa28A0294PfFxxx0_S60_L001
+DHFR	3	.	GAT	GATATTTTCTCCTTTTTATGAT	27.2463	.	INDEL;IDV=1;IMF=0.111111;DP=9;VDB=5.52906e-06;SGB=-0.616816;MQSB=0.89338;MQ0F=0.222222;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,2,4,2;MQ=15	GT:PL	0/1:60,0,13
+DHFR	152	.	A	T	225	.	DP=55;VDB=0.324721;SGB=-0.69312;MQSB=0.526391;MQ0F=0;AC=2;AN=2;DP4=0,0,17,15;MQ=40	GT:PL	1/1:255,96,0
+DHFR	175	.	T	C	225	.	DP=60;VDB=0.668851;SGB=-0.693127;MQSB=0.71829;MQ0F=0;AC=2;AN=2;DP4=0,0,18,15;MQ=40	GT:PL	1/1:255,99,0
+DHFR	323	.	G	A	225	.	DP=48;VDB=0.0512761;SGB=-0.693079;MQSB=0.940317;MQ0F=0;AC=2;AN=2;DP4=0,0,13,16;MQ=41	GT:PL	1/1:255,87,0
+K13	566	.	A	C	77	.	DP=5;VDB=0.946712;SGB=-0.511536;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,2;MQ=42	GT:PL	1/1:107,9,0
+K13	629	.	G	A	5.03746	.	DP=3;SGB=-0.379885;RPB=1;MQB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,1,0;MQ=42	GT:PL	0/1:36,0,33
+mitochondrial_genome	259	.	A	G	10.7923	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=40	GT:PL	1/1:40,3,0
+mitochondrial_genome	385	.	T	C	9.88514	.	DP=1;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,0,1;MQ=40	GT:PL	1/1:39,3,0
+PfCRT	1710	.	C	G	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=42	GT:PL	1/1:42,3,0
+PfCRT	1782	.	G	A	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=42	GT:PL	1/1:42,3,0
+PfMDR1	2005	.	T	C	5.03966	.	DP=4;SGB=-0.379885;RPB=1;MQB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,1,0,1;MQ=42	GT:PL	0/1:36,0,36

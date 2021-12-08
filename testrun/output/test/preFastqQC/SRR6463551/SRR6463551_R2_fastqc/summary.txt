@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR6463551_R2.fastq.gz
+FAIL	Per base sequence quality	SRR6463551_R2.fastq.gz
+PASS	Per sequence quality scores	SRR6463551_R2.fastq.gz
+FAIL	Per base sequence content	SRR6463551_R2.fastq.gz
+FAIL	Per sequence GC content	SRR6463551_R2.fastq.gz
+PASS	Per base N content	SRR6463551_R2.fastq.gz
+WARN	Sequence Length Distribution	SRR6463551_R2.fastq.gz
+FAIL	Sequence Duplication Levels	SRR6463551_R2.fastq.gz
+FAIL	Overrepresented sequences	SRR6463551_R2.fastq.gz
+PASS	Adapter Content	SRR6463551_R2.fastq.gz
+WARN	Kmer Content	SRR6463551_R2.fastq.gz

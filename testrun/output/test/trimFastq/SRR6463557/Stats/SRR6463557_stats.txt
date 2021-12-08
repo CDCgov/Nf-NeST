@@ -1,0 +1,6 @@
+#File	SRR6463557_R1.fastq.gz	SRR6463557_R2.fastq.gz
+#Total	187978
+#Matched	203	0.10799%
+#Name	Reads	ReadsPct
+Nextera_transposase_read1	124	0.06597%
+Nextera_transposase_read2	79	0.04203%

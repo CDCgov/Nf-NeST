@@ -1,0 +1,6 @@
+#File	19ANZa00F0092PfFxxx0_S76_L001_R1.fastq.gz	19ANZa00F0092PfFxxx0_S76_L001_R2.fastq.gz
+#Total	13650
+#Matched	10	0.07326%
+#Name	Reads	ReadsPct
+Nextera_transposase_read2	6	0.04396%
+Nextera_transposase_read1	4	0.02930%

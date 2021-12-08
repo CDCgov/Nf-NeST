@@ -1,0 +1,7 @@
+#rname	startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+DHFR	1	1827	231	1785	97.7011	25.5506	38.7	41.5
+DHPS	1	2417	90	2132	88.2085	7.30244	38.7	42
+K13	1	2181	390	2080	95.3691	35.591	38.7	42
+PfCRT	1	3399	44	1301	38.276	2.53545	38.7	41.8
+PfMDR1	1	4260	50	3198	75.0704	2.40423	38.7	42
+mitochondrial_genome	1	5967	0	0	0	0	0	0

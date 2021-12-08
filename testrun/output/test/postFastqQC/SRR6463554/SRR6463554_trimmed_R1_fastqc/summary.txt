@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR6463554_trimmed_R1.fastq
+PASS	Per base sequence quality	SRR6463554_trimmed_R1.fastq
+PASS	Per sequence quality scores	SRR6463554_trimmed_R1.fastq
+FAIL	Per base sequence content	SRR6463554_trimmed_R1.fastq
+FAIL	Per sequence GC content	SRR6463554_trimmed_R1.fastq
+PASS	Per base N content	SRR6463554_trimmed_R1.fastq
+WARN	Sequence Length Distribution	SRR6463554_trimmed_R1.fastq
+WARN	Sequence Duplication Levels	SRR6463554_trimmed_R1.fastq
+WARN	Overrepresented sequences	SRR6463554_trimmed_R1.fastq
+PASS	Adapter Content	SRR6463554_trimmed_R1.fastq
+WARN	Kmer Content	SRR6463554_trimmed_R1.fastq

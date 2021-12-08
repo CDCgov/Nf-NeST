@@ -1,0 +1,12 @@
+PASS	Basic Statistics	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Per base sequence quality	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Per tile sequence quality	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Per sequence quality scores	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+WARN	Per base sequence content	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+FAIL	Per sequence GC content	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Per base N content	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+WARN	Sequence Length Distribution	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Sequence Duplication Levels	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+WARN	Overrepresented sequences	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+PASS	Adapter Content	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq
+FAIL	Kmer Content	19ANZa21A0209PfFxxx0_S48_L001_trimmed_R2.fastq

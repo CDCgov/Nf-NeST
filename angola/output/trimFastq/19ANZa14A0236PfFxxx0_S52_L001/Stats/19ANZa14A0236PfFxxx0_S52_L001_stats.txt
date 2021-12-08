@@ -1,0 +1,6 @@
+#File	19ANZa14A0236PfFxxx0_S52_L001_R1.fastq.gz	19ANZa14A0236PfFxxx0_S52_L001_R2.fastq.gz
+#Total	16182
+#Matched	10	0.06180%
+#Name	Reads	ReadsPct
+Nextera_transposase_read2	7	0.04326%
+Nextera_transposase_read1	3	0.01854%

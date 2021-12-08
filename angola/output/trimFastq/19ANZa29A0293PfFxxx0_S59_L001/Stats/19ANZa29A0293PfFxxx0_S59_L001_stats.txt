@@ -1,0 +1,6 @@
+#File	19ANZa29A0293PfFxxx0_S59_L001_R1.fastq.gz	19ANZa29A0293PfFxxx0_S59_L001_R2.fastq.gz
+#Total	14684
+#Matched	7	0.04767%
+#Name	Reads	ReadsPct
+Nextera_transposase_read2	6	0.04086%
+Nextera_transposase_read1	1	0.00681%

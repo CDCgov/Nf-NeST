@@ -1,0 +1,6 @@
+#File	19ANBe21A0042PfFxxx0_S40_L001_R1.fastq.gz	19ANBe21A0042PfFxxx0_S40_L001_R2.fastq.gz
+#Total	28584
+#Matched	10	0.03498%
+#Name	Reads	ReadsPct
+Nextera_transposase_read1	7	0.02449%
+Nextera_transposase_read2	3	0.01050%

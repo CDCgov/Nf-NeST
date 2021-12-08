@@ -1,0 +1,3846 @@
+{
+    "Study": "xxxx",
+    "Number of samples": "xxxx",
+    "Date": "now",
+    "Sample": {
+        "SRR6463548.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "4",
+            "SampleID": "8.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "86",
+                    "AF": "Y",
+                    "Confidence": "24.15",
+                    "Status": "0.0"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "T",
+                    "Call": "436",
+                    "AF": "A",
+                    "Confidence": "17.08",
+                    "Status": "-1.486"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "28.2",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "129",
+                    "AF": "437",
+                    "Confidence": "0.854",
+                    "Status": "0.6125"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463549.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "4",
+            "SampleID": "9.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "184",
+                    "AF": "F",
+                    "Confidence": "31.98",
+                    "Status": "None"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "27.24",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "294",
+                    "AF": "437",
+                    "Confidence": "1.222",
+                    "Status": "0.6525"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463550.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "0.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "86",
+                    "AF": "Y",
+                    "Confidence": "23.23",
+                    "Status": "None"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "28.2",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "207",
+                    "AF": "437",
+                    "Confidence": "0.959",
+                    "Status": "0.6053571428571429"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "164",
+                    "AF": "K",
+                    "Confidence": "3.13",
+                    "Status": "0.0"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463551.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "1.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "184",
+                    "AF": "F",
+                    "Confidence": "21.03",
+                    "Status": "-1.576"
+                },
+                "PfCRT:AEM": {
+                    "Ref": "A",
+                    "Pos": "E",
+                    "Alt": "M",
+                    "Call": "0.018691588785046728",
+                    "AF": "107",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:GEM": {
+                    "Ref": "G",
+                    "Pos": "E",
+                    "Alt": "M",
+                    "Call": "0.018691588785046728",
+                    "AF": "107",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:CST": {
+                    "Ref": "C",
+                    "Pos": "S",
+                    "Alt": "T",
+                    "Call": "649",
+                    "AF": "436",
+                    "Confidence": "0.617",
+                    "Status": "0.36423214285714284"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "33.93",
+                    "Status": "1.215"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "665",
+                    "AF": "437",
+                    "Confidence": "0.755",
+                    "Status": "0.6405"
+                },
+                "DHPS:Freebayes\"GA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "A",
+                    "Call": "540",
+                    "AF": "E",
+                    "Confidence": "28.2",
+                    "Status": "-0.332"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"TG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "G",
+                    "Call": "613",
+                    "AF": "S",
+                    "Confidence": "2.37",
+                    "Status": "-0.299"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463552.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "2.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "184",
+                    "AF": "F",
+                    "Confidence": "26.8",
+                    "Status": "None"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "T",
+                    "Call": "436",
+                    "AF": "A",
+                    "Confidence": "21.74",
+                    "Status": "-0.98"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "298",
+                    "AF": "437",
+                    "Confidence": "0.952",
+                    "Status": "0.6333571428571428"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463553.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "3.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:TFY": {
+                    "Ref": "T",
+                    "Pos": "F",
+                    "Alt": "Y",
+                    "Call": "0.022988505747126436",
+                    "AF": "36",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "490",
+                    "AF": "437",
+                    "Confidence": "1.062",
+                    "Status": "0.687125"
+                },
+                "DHPS:GEK": {
+                    "Ref": "G",
+                    "Pos": "E",
+                    "Alt": "K",
+                    "Call": "0.011278195488721804",
+                    "AF": "270",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                }
+            }
+        },
+        "SRR6463554.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "4.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:TFY": {
+                    "Ref": "T",
+                    "Pos": "F",
+                    "Alt": "Y",
+                    "Call": "0.02666666666666667",
+                    "AF": "75",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "590",
+                    "AF": "437",
+                    "Confidence": "1.303",
+                    "Status": "0.687125"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:AEA": {
+                    "Ref": "A",
+                    "Pos": "E",
+                    "Alt": "A",
+                    "Call": "0.013245033112582781",
+                    "AF": "49",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                }
+            }
+        },
+        "SRR6463555.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "5.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "576",
+                    "AF": "437",
+                    "Confidence": "1.041",
+                    "Status": "0.6333571428571428"
+                },
+                "DHPS:Freebayes\"GA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "A",
+                    "Call": "540",
+                    "AF": "E",
+                    "Confidence": "28.2",
+                    "Status": "None"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463556.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "6.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAQQ": {
+                    "Ref": "NA",
+                    "Pos": "Q",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:TVA": {
+                    "Ref": "T",
+                    "Pos": "V",
+                    "Alt": "A",
+                    "Call": "0.010256410256410256",
+                    "AF": "195",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "27.24",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "433",
+                    "AF": "437",
+                    "Confidence": "1.136",
+                    "Status": "0.6525"
+                },
+                "DHPS:Freebayes\"GA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "A",
+                    "Call": "540",
+                    "AF": "E",
+                    "Confidence": "25.0",
+                    "Status": "None"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        },
+        "SRR6463557.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "7.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:CTI": {
+                    "Ref": "C",
+                    "Pos": "T",
+                    "Alt": "I",
+                    "Call": "0.041666666666666664",
+                    "AF": "48",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:GAT": {
+                    "Ref": "G",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "36",
+                    "AF": "220",
+                    "Confidence": "0.693",
+                    "Status": "0.3"
+                },
+                "PfCRT:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAHH": {
+                    "Ref": "NA",
+                    "Pos": "H",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NATT": {
+                    "Ref": "NA",
+                    "Pos": "T",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:GEQ": {
+                    "Ref": "G",
+                    "Pos": "E",
+                    "Alt": "Q",
+                    "Call": "0.03508771929824561",
+                    "AF": "57",
+                    "Confidence": "None",
+                    "Status": "\"NA"
+                },
+                "K13:NAPP": {
+                    "Ref": "NA",
+                    "Pos": "P",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NARR": {
+                    "Ref": "NA",
+                    "Pos": "R",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAVV": {
+                    "Ref": "NA",
+                    "Pos": "V",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NACC": {
+                    "Ref": "NA",
+                    "Pos": "C",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NADD": {
+                    "Ref": "NA",
+                    "Pos": "D",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAGG": {
+                    "Ref": "NA",
+                    "Pos": "G",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NANN": {
+                    "Ref": "NA",
+                    "Pos": "N",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAFF": {
+                    "Ref": "NA",
+                    "Pos": "F",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAMM": {
+                    "Ref": "NA",
+                    "Pos": "M",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:NAYY": {
+                    "Ref": "NA",
+                    "Pos": "Y",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NASS": {
+                    "Ref": "NA",
+                    "Pos": "S",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:Freebayes\"GC": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "G",
+                    "Alt": "C",
+                    "Call": "437",
+                    "AF": "G",
+                    "Confidence": "27.24",
+                    "Status": "None"
+                },
+                "DHPS:AAT": {
+                    "Ref": "A",
+                    "Pos": "A",
+                    "Alt": "T",
+                    "Call": "479",
+                    "AF": "437",
+                    "Confidence": "1.097",
+                    "Status": "0.6525"
+                },
+                "DHPS:NAKK": {
+                    "Ref": "NA",
+                    "Pos": "K",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:NAAA": {
+                    "Ref": "NA",
+                    "Pos": "A",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"CT": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "C",
+                    "Alt": "T",
+                    "Call": "59",
+                    "AF": "R",
+                    "Confidence": "28.73",
+                    "Status": "None"
+                },
+                "DHFR:Freebayes\"AG": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "A",
+                    "Alt": "G",
+                    "Call": "108",
+                    "AF": "N",
+                    "Confidence": "30.97",
+                    "Status": "None"
+                },
+                "DHFR:NAII": {
+                    "Ref": "NA",
+                    "Pos": "I",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:Freebayes\"TA": {
+                    "Ref": "Freebayes\"",
+                    "Pos": "T",
+                    "Alt": "A",
+                    "Call": "51",
+                    "AF": "I",
+                    "Confidence": "25.36",
+                    "Status": "None"
+                }
+            }
+        }
+    }
+}
