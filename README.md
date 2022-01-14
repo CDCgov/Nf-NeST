@@ -10,7 +10,8 @@ This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis T
 5. [Input standardization](#inputs)
 6. [Output Description](#outputs)
 7. [Post analysis for pooled and individual sequenced samples](#postanalysis)
-7. [Update Docker file](#dockerupdate)
+8. [Update Docker file](#dockerupdate)
+9. [Chat with Gitter](#gitter) 
 
 <a id="Overview"></a>
 ## Overview of the NeST framework:
@@ -202,3 +203,6 @@ Using the `angola` dataset as an example. After the run, the `angola` input dire
 4. `docker tag <imageID here> <your docker ID>/<name of docker>` 
 
 5. `docker push <your docker ID>/<name of docker>`
+
+<a id="gitter"></a>
+[![Gitter](https://badges.gitter.im/nf-NeST/community.svg)](https://gitter.im/nf-NeST/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
