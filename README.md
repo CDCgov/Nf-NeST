@@ -204,5 +204,7 @@ Using the `angola` dataset as an example. After the run, the `angola` input dire
 
 5. `docker push <your docker ID>/<name of docker>`
 
+
+## Chat on Gitter 
 <a id="gitter"></a>
 [![Gitter](https://badges.gitter.im/nf-NeST/community.svg)](https://gitter.im/nf-NeST/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
