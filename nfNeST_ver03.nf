@@ -51,6 +51,7 @@ process preFastQC {
         """
         fastqc --extract -f fastq -o ./ -t $task.cpus ${read_one} ${read_two}
         """
+        
 }
 
 process trimFastq {
@@ -358,19 +359,19 @@ process snpfilter {
 
 
 
-process tojson {
-    publishDir "$params.output.folder/combinedjson/", pattern: "*.json", mode : "copy"
-    input:
-        set val(sample), path("${sample}.csv") from snpfilter_out
-        path(pyscripts_path) from pyscripts
+// process tojson {
+//     publishDir "$params.output.folder/combinedjson/", pattern: "*.json", mode : "copy"
+//     input:
+//         set val(sample), path("${sample}.csv") from snpfilter_out
+//         path(pyscripts_path) from pyscripts
 
-    output:
-        tuple val(sample), path("wholecombine.json") into tojson_out
-    script:
-        """
-        python3 ${pyscripts_path}/tojson2.py -d1 $baseDir/$params.output.folder/forjson
-        """
-}
+//     output:
+//         tuple val(sample), path("wholecombine.json") into tojson_out
+//     script:
+//         """
+//         python3 ${pyscripts_path}/tojson2.py -d1 $baseDir/$params.output.folder/forjson
+//         """
+// }
 
 process getcutoff{
 
@@ -399,8 +400,8 @@ process getcutoff{
 
 
 process viz {   
-    publishDir "$params.output.folder/visualization/", mode : "copy"
-    errorStrategy 'ignore'
+    publishDir "$params.output.folder/summary/", mode : "copy"
+    //errorStrategy 'ignore'
 
     input:
         path(logfile) from logpath
@@ -410,45 +411,45 @@ process viz {
         file(list1) from list1
       
     output:
-        file("summary_reportable.csv")
-        file("NCBI_feature_column.csv")
-        file("PowerBI_input.csv")
+        // file("summary_reportable.csv")
+        // file("NCBI_feature_column.csv")
+        file("result_table.csv")
         file("cutoff_SNP.csv")
         file("summary.csv")
-        file("haplotype.csv")
+        // file("haplotype.csv")
         file("nextflowlog.txt") into logpath1
-        file("haplotype_count.csv")
+        // file("haplotype_count.csv")
 
     script:
         """
-        python3 ${pyscripts_path}/visualization_final2.py -voi $baseDir/ref/pfalciparum/voinew4.csv -cod $baseDir/$params.output.folder/cutoff/
+        python3 ${pyscripts_path}/visualization_general.py -voi $baseDir/ref/pfalciparum/voinew4.csv -cod $baseDir/$params.output.folder/cutoff/
         mv $logfile  "nextflowlog.txt"
         """
 } 
 
-process errortrack {
-    publishDir "$params.output.folder/errortrack/", mode : "copy"
-    errorStrategy 'ignore'
-    input:
+// process errortrack {
+//     publishDir "$params.output.folder/errortrack/", mode : "copy"
+//     errorStrategy 'ignore'
+//     input:
 
-        file(logfile) from logpath1
+//         file(logfile) from logpath1
 
-        path(work) from workpath
-        path(pyscripts_path) from pyscripts
+//         path(work) from workpath
+//         path(pyscripts_path) from pyscripts
 
-        path(CT) from CTexcelpath
-    output:
-        file("out.csv")
-    script:
-        if( datasettype == 'Angola')
-            """
-            python3 ${pyscripts_path}/errortrackn6.py -n1 ${logfile} -w1 ${work} -x1 ${CT}
-            """
-        else
-            """
-           python3 ${pyscripts_path}/errortrackn7.py -n1 ${logfile} -w1 ${work}
-            """
-}
+//         path(CT) from CTexcelpath
+//     output:
+//         file("out.csv")
+//     sgit cript:
+//         if( datasettype == 'Angola')
+//             """
+//             python3 ${pyscripts_path}/errortrackn6.py -n1 ${logfile} -w1 ${work} -x1 ${CT}
+//             """
+//         else
+//             """
+//            python3 ${pyscripts_path}/errortrackn7.py -n1 ${logfile} -w1 ${work}
+//             """
+// }
 
 // process sendemail{
 //     """

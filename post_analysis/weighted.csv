@@ -1,190 +1,175 @@
-Year,Study site,Gene,Drug Resistance Marker,count_indi,count_pool,final_weight,type,total
-19,Dabola,PfCRT,145F>I,4,161,0,Wildtype,165
-19,Dabola,PfCRT,218I>F,4,161,0,Wildtype,165
-19,Dabola,PfCRT,220A>S,4,141,0.046839634,Mutant,145
-19,Dabola,PfCRT,271Q>E,4,131,0.096904106,Mutant,135
-19,Dabola,PfCRT,326N>S,4,161,0,Wildtype,165
-19,Dabola,PfCRT,343M>L,4,161,0,Wildtype,165
-19,Dabola,PfCRT,350C>R,4,161,0,Wildtype,165
-19,Dabola,PfCRT,353G>V,4,161,0,Wildtype,165
-19,Dabola,PfCRT,356I>T,3,146,0.040707777,Mutant,149
-19,Dabola,PfCRT,371R>I,4,156,0.015151515,Mutant,160
-19,Dabola,PfCRT,72C>S,4,161,0,Wildtype,165
-19,Dabola,PfCRT,73V>V,4,161,0,Wildtype,165
-19,Dabola,PfCRT,74M>I,2,120,0.121833065,Mutant,122
-19,Dabola,PfCRT,75N>E,2,120,0.135849952,Mutant,122
-19,Dabola,PfCRT,76K>T,2,120,0.121482541,Mutant,122
-19,Dabola,PfCRT,93T>S,4,161,0,Wildtype,165
-19,Dabola,PfCRT,97H>Y,4,161,0,Wildtype,165
-19,Dabola,PfK13,441P>L,4,176,0,Wildtype,180
-19,Dabola,PfK13,446F>I,4,176,0,Wildtype,180
-19,Dabola,PfK13,449G>A,4,176,0,Wildtype,180
-19,Dabola,PfK13,458N>Y,4,176,0,Wildtype,180
-19,Dabola,PfK13,469C>F,4,176,0,Wildtype,180
-19,Dabola,PfK13,476M>I,4,176,0,Wildtype,180
-19,Dabola,PfK13,481A>V,4,176,0,Wildtype,180
-19,Dabola,PfK13,493Y>H,4,176,0,Wildtype,180
-19,Dabola,PfK13,515R>K,4,176,0,Wildtype,180
-19,Dabola,PfK13,527P>H,4,176,0,Wildtype,180
-19,Dabola,PfK13,537N>I,4,176,0,Wildtype,180
-19,Dabola,PfK13,538G>V,4,176,0,Wildtype,180
-19,Dabola,PfK13,539R>T,4,176,0,Wildtype,180
-19,Dabola,PfK13,543I>T,4,176,0,Wildtype,180
-19,Dabola,PfK13,553P>L,4,176,0,Wildtype,180
-19,Dabola,PfK13,561R>H,4,176,0,Wildtype,180
-19,Dabola,PfK13,568V>G,4,176,0,Wildtype,180
-19,Dabola,PfK13,574P>L,4,176,0,Wildtype,180
-19,Dabola,PfK13,578A>S,4,171,0.003794778,Mutant,175
-19,Dabola,PfK13,580C>Y,4,176,0,Wildtype,180
-19,Dabola,PfK13,584D>V,4,176,0,Wildtype,180
-19,Dabola,PfK13,622R>I,4,176,0,Wildtype,180
-19,Dabola,PfK13,675A>V,4,176,0,Wildtype,180
-19,Dabola,PfMDR1,1034S>C,4,156,0,Wildtype,160
-19,Dabola,PfMDR1,1042N>D,4,156,0,Wildtype,160
-19,Dabola,PfMDR1,1246D>Y,4,156,0,Wildtype,160
-19,Dabola,PfMDR1,184Y>F,3,60,0.462584046,Mutant,63
-19,Dabola,PfMDR1,86N>Y,4,141,0.052083333,Mutant,145
-18,For�cariah Centre,K13,441P>L,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,446F>I,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,449G>A,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,458N>Y,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,469C>F,7,194,0.013755225,Mutant,201
-18,For�cariah Centre,K13,469C>Y,7,194,0.013755225,Mutant,201
-18,For�cariah Centre,K13,476M>I,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,481A>V,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,493Y>H,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,515R>K,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,527P>H,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,537N>I,7,194,0.000284293,Mutant,201
-18,For�cariah Centre,K13,538G>V,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,539R>T,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,543I>T,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,553P>L,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,561R>H,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,568V>G,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,574P>L,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,578A>S,7,194,0.008184701,Mutant,201
-18,For�cariah Centre,K13,580C>Y,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,584D>V,7,194,0,Wildtype,201
-18,For�cariah Centre,K13,622R>I,7,194,0.000261849,Mutant,201
-18,For�cariah Centre,K13,675A>V,7,194,0.000264634,Mutant,201
-18,Lab�,K13,441P>L,10,86,0,Wildtype,96
-18,Lab�,K13,446F>I,10,86,0,Wildtype,96
-18,Lab�,K13,449G>A,10,86,0,Wildtype,96
-18,Lab�,K13,458N>Y,10,86,0,Wildtype,96
-18,Lab�,K13,469C>F,10,86,0,Wildtype,96
-18,Lab�,K13,469C>Y,10,86,0,Wildtype,96
-18,Lab�,K13,476M>I,10,86,0,Wildtype,96
-18,Lab�,K13,481A>V,10,86,0,Wildtype,96
-18,Lab�,K13,493Y>H,10,86,0,Wildtype,96
-18,Lab�,K13,515R>K,10,86,0,Wildtype,96
-18,Lab�,K13,527P>H,10,86,0,Wildtype,96
-18,Lab�,K13,537N>I,10,86,0,Wildtype,96
-18,Lab�,K13,538G>V,10,86,0,Wildtype,96
-18,Lab�,K13,539R>T,10,86,0,Wildtype,96
-18,Lab�,K13,543I>T,10,86,0,Wildtype,96
-18,Lab�,K13,553P>L,10,86,0,Wildtype,96
-18,Lab�,K13,561R>H,10,86,0,Wildtype,96
-18,Lab�,K13,568V>G,10,86,0,Wildtype,96
-18,Lab�,K13,574P>L,10,86,0,Wildtype,96
-18,Lab�,K13,578A>S,10,86,0,Wildtype,96
-18,Lab�,K13,580C>Y,10,86,0,Wildtype,96
-18,Lab�,K13,584D>V,10,86,0,Wildtype,96
-18,Lab�,K13,622R>I,10,86,0,Wildtype,96
-18,Lab�,K13,675A>V,10,86,0,Wildtype,96
-19,Nz�r�kor�,K13,441P>L,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,446F>I,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,449G>A,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,458N>Y,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,469C>F,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,469C>Y,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,476M>I,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,481A>V,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,493Y>H,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,515R>K,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,527P>H,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,537N>I,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,538G>V,2,177,0.000836316,Mutant,179
-19,Nz�r�kor�,K13,539R>T,2,177,0.00031742,Mutant,179
-19,Nz�r�kor�,K13,543I>T,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,553P>L,2,177,0.000360425,Mutant,179
-19,Nz�r�kor�,K13,561R>H,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,568V>G,2,177,0.000326701,Mutant,179
-19,Nz�r�kor�,K13,574P>L,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,578A>S,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,580C>Y,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,584D>V,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,622R>I,2,177,0,Wildtype,179
-19,Nz�r�kor�,K13,675A>V,2,177,0,Wildtype,179
-18,For�cariah Centre,mitochondrial_genome,258I>M,7,194,0.000742556,Mutant,201
-18,For�cariah Centre,mitochondrial_genome,268Y>N,7,194,0,Wildtype,201
-18,Lab�,mitochondrial_genome,258I>M,10,86,0,Wildtype,96
-18,Lab�,mitochondrial_genome,268Y>N,10,86,0,Wildtype,96
-19,Nz�r�kor�,mitochondrial_genome,258I>M,2,182,0,Wildtype,184
-19,Nz�r�kor�,mitochondrial_genome,268Y>N,2,182,0,Wildtype,184
-18,For�cariah Centre,PfCRT,145F>I,3,135,0,Wildtype,138
-18,For�cariah Centre,PfCRT,218I>F,3,105,0,Wildtype,108
-18,For�cariah Centre,PfCRT,220A>S,3,105,0.052083333,Mutant,108
-18,For�cariah Centre,PfCRT,271Q>E,3,110,0.053097345,Mutant,113
-18,For�cariah Centre,PfCRT,326N>S,3,20,0,Wildtype,23
-18,For�cariah Centre,PfCRT,343M>L,3,105,0,Wildtype,108
-18,For�cariah Centre,PfCRT,350C>R,3,100,0,Wildtype,103
-18,For�cariah Centre,PfCRT,353G>V,3,100,0,Wildtype,103
-18,For�cariah Centre,PfCRT,356I>T,3,100,0,Wildtype,103
-18,For�cariah Centre,PfCRT,371R>I,3,30,0,Wildtype,33
-18,For�cariah Centre,PfCRT,72C>S,3,140,0.000375968,Mutant,143
-18,For�cariah Centre,PfCRT,73V>V,3,140,0,Wildtype,143
-18,For�cariah Centre,PfCRT,74M>I,3,140,0.037462537,Mutant,143
-18,For�cariah Centre,PfCRT,75N>E,3,140,0.034965035,Mutant,143
-18,For�cariah Centre,PfCRT,76K>T,3,140,0.034965035,Mutant,143
-18,For�cariah Centre,PfCRT,93T>S,3,145,0,Wildtype,148
-18,For�cariah Centre,PfCRT,97H>Y,3,145,0,Wildtype,148
-18,Lab�,PfCRT,145F>I,4,81,0,Wildtype,85
-18,Lab�,PfCRT,218I>F,4,65,0,Wildtype,69
-18,Lab�,PfCRT,220A>S,4,65,0.264492754,Mutant,69
-18,Lab�,PfCRT,271Q>E,4,50,0.046296296,Mutant,54
-18,Lab�,PfCRT,326N>S,4,10,0,Wildtype,14
-18,Lab�,PfCRT,343M>L,4,70,0,Wildtype,74
-18,Lab�,PfCRT,350C>R,4,70,0,Wildtype,74
-18,Lab�,PfCRT,353G>V,4,70,0,Wildtype,74
-18,Lab�,PfCRT,356I>T,4,65,0.108695652,Mutant,69
-18,Lab�,PfCRT,371R>I,4,5,0,Wildtype,9
-18,Lab�,PfCRT,72C>S,4,76,0,Wildtype,80
-18,Lab�,PfCRT,73V>V,4,76,0,Wildtype,80
-18,Lab�,PfCRT,74M>I,4,76,0.196924603,Mutant,80
-18,Lab�,PfCRT,75N>E,4,81,0.218809363,Mutant,85
-18,Lab�,PfCRT,76K>T,4,76,0.209401709,Mutant,80
-18,Lab�,PfCRT,93T>S,4,81,0.002673797,Mutant,85
-18,Lab�,PfCRT,97H>Y,4,81,0,Wildtype,85
-19,Nz�r�kor�,PfCRT,145F>I,2,152,0.000649351,Mutant,154
-19,Nz�r�kor�,PfCRT,218I>F,2,132,0,Wildtype,134
-19,Nz�r�kor�,PfCRT,220A>S,2,132,0.057205255,Mutant,134
-19,Nz�r�kor�,PfCRT,271Q>E,2,125,0.075036618,Mutant,127
-19,Nz�r�kor�,PfCRT,326N>S,2,75,0,Wildtype,77
-19,Nz�r�kor�,PfCRT,343M>L,2,142,0.002042484,Mutant,144
-19,Nz�r�kor�,PfCRT,350C>R,2,142,0,Wildtype,144
-19,Nz�r�kor�,PfCRT,353G>V,2,142,0,Wildtype,144
-19,Nz�r�kor�,PfCRT,356I>T,2,142,0.002571552,Mutant,144
-19,Nz�r�kor�,PfCRT,371R>I,2,70,0.069444444,Mutant,72
-19,Nz�r�kor�,PfCRT,72C>S,2,157,0,Wildtype,159
-19,Nz�r�kor�,PfCRT,73V>V,2,157,0.000982704,Mutant,159
-19,Nz�r�kor�,PfCRT,74M>I,2,157,0.083113855,Mutant,159
-19,Nz�r�kor�,PfCRT,75N>E,2,157,0.083113855,Mutant,159
-19,Nz�r�kor�,PfCRT,76K>T,2,157,0.083113855,Mutant,159
-19,Nz�r�kor�,PfCRT,93T>S,2,157,0,Wildtype,159
-19,Nz�r�kor�,PfCRT,97H>Y,2,157,0,Wildtype,159
-18,For�cariah Centre,PfMDR1,1034S>C,7,144,0,Wildtype,151
-18,For�cariah Centre,PfMDR1,1042N>D,7,144,0,Wildtype,151
-18,For�cariah Centre,PfMDR1,1246D>Y,7,139,0,Wildtype,146
-18,For�cariah Centre,PfMDR1,184Y>F,7,144,0.556584336,Mutant,151
-18,For�cariah Centre,PfMDR1,86N>Y,7,94,0.0090009,Mutant,101
-18,Lab�,PfMDR1,1034S>C,8,56,0,Wildtype,64
-18,Lab�,PfMDR1,1042N>D,8,56,0,Wildtype,64
-18,Lab�,PfMDR1,1246D>Y,8,45,0.047169811,Mutant,53
-18,Lab�,PfMDR1,184Y>F,8,55,0.764235324,Mutant,63
-18,Lab�,PfMDR1,86N>Y,8,35,0.23255814,Mutant,43
-19,Nz�r�kor�,PfMDR1,1034S>C,2,167,0.01689713,Mutant,169
-19,Nz�r�kor�,PfMDR1,1042N>D,2,167,0,Wildtype,169
-19,Nz�r�kor�,PfMDR1,1246D>Y,2,157,0.05334439,Mutant,159
-19,Nz�r�kor�,PfMDR1,184Y>F,2,165,0.574734392,Mutant,167
-19,Nz�r�kor�,PfMDR1,86N>Y,2,142,0.103758738,Mutant,144
+,region,Gene,Drug Resistance Marker,Year,pool_weight_sum,count_pool,indi_weight_sum,count_indi,final_weight,type,key,total
+0,Forécariah Centre,DHFR,108S>N,18,177.1772549019608,184,7.0,7,0.9642788214762346,Mutant,Forécariah CentreDHFR108S>N18,191
+1,Forécariah Centre,DHFR,164I>L,18,0.0,184,0.0,7,0.0,Wildtype,Forécariah CentreDHFR164I>L18,191
+2,Forécariah Centre,DHFR,16A>V,18,0.07352941176470587,184,0.0,7,0.00038497074222359096,Mutant,Forécariah CentreDHFR16A>V18,191
+3,Forécariah Centre,DHFR,51N>I,18,176.5266588638086,184,5.5,7,0.9530191563550188,Mutant,Forécariah CentreDHFR51N>I18,191
+4,Forécariah Centre,DHFR,59C>R,18,177.4537380699894,184,5.0,7,0.9552551731413058,Mutant,Forécariah CentreDHFR59C>R18,191
+5,Forécariah Centre,DHPS,436S>A,18,67.00943613386146,193,4.254545454545454,7,0.35631990794203455,Mutant,Forécariah CentreDHPS436S>A18,200
+6,Forécariah Centre,DHPS,437A>G,18,317.28417874845695,358,11.545454545454545,12,0.8887287386321933,Mutant,Forécariah CentreDHPS437A>G18,370
+7,Forécariah Centre,DHPS,540K>E,18,9.400062656641605,169,0.0,7,0.05340944691273639,Mutant,Forécariah CentreDHPS540K>E18,176
+8,Forécariah Centre,DHPS,581A>G,18,3.134247917687408,179,1.0,7,0.02222713934240542,Mutant,Forécariah CentreDHPS581A>G18,186
+9,Forécariah Centre,DHPS,613A>S,18,20.538459136965347,189,1.0,7,0.1098900976375783,Mutant,Forécariah CentreDHPS613A>S18,196
+10,Forécariah Centre,K13,441P>L,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13441P>L18,201
+11,Forécariah Centre,K13,446F>I,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13446F>I18,201
+12,Forécariah Centre,K13,449G>A,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13449G>A18,201
+13,Forécariah Centre,K13,458N>Y,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13458N>Y18,201
+14,Forécariah Centre,K13,469C>F,18,2.7648001832131,194,0.0,7,0.013755224792104975,Mutant,Forécariah CentreK13469C>F18,201
+15,Forécariah Centre,K13,469C>Y,18,2.7648001832131,194,0.0,7,0.013755224792104975,Mutant,Forécariah CentreK13469C>Y18,201
+16,Forécariah Centre,K13,476M>I,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13476M>I18,201
+17,Forécariah Centre,K13,481A>V,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13481A>V18,201
+18,Forécariah Centre,K13,493Y>H,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13493Y>H18,201
+19,Forécariah Centre,K13,515R>K,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13515R>K18,201
+20,Forécariah Centre,K13,527P>H,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13527P>H18,201
+21,Forécariah Centre,K13,537N>I,18,0.05714285714285714,194,0.0,7,0.00028429282160625445,Mutant,Forécariah CentreK13537N>I18,201
+22,Forécariah Centre,K13,538G>V,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13538G>V18,201
+23,Forécariah Centre,K13,539R>T,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13539R>T18,201
+24,Forécariah Centre,K13,543I>T,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13543I>T18,201
+25,Forécariah Centre,K13,553P>L,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13553P>L18,201
+26,Forécariah Centre,K13,561R>H,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13561R>H18,201
+27,Forécariah Centre,K13,568V>G,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13568V>G18,201
+28,Forécariah Centre,K13,574P>L,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13574P>L18,201
+29,Forécariah Centre,K13,578A>S,18,1.645124967272161,194,0.0,7,0.008184701329712244,Mutant,Forécariah CentreK13578A>S18,201
+30,Forécariah Centre,K13,580C>Y,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13580C>Y18,201
+31,Forécariah Centre,K13,584D>V,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah CentreK13584D>V18,201
+32,Forécariah Centre,K13,622R>I,18,0.05263157894736842,194,0.0,7,0.00026184865147944484,Mutant,Forécariah CentreK13622R>I18,201
+33,Forécariah Centre,K13,675A>V,18,0.05319148936170212,194,0.0,7,0.00026463427543135386,Mutant,Forécariah CentreK13675A>V18,201
+34,Forécariah Centre,PfCRT,145F>I,18,0.0,135,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT145F>I18,138
+35,Forécariah Centre,PfCRT,218I>F,18,0.0,105,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT218I>F18,108
+36,Forécariah Centre,PfCRT,220A>S,18,5.625,105,0.0,3,0.052083333333333336,Mutant,Forécariah CentrePfCRT220A>S18,108
+37,Forécariah Centre,PfCRT,271Q>E,18,5.0,110,1.0,3,0.05309734513274336,Mutant,Forécariah CentrePfCRT271Q>E18,113
+38,Forécariah Centre,PfCRT,326N>S,18,0.0,20,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT326N>S18,23
+39,Forécariah Centre,PfCRT,343M>L,18,0.0,105,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT343M>L18,108
+40,Forécariah Centre,PfCRT,350C>R,18,0.0,100,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT350C>R18,103
+41,Forécariah Centre,PfCRT,353G>V,18,0.0,100,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT353G>V18,103
+42,Forécariah Centre,PfCRT,356I>T,18,0.0,100,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT356I>T18,103
+43,Forécariah Centre,PfCRT,371R>I,18,0.0,30,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT371R>I18,33
+44,Forécariah Centre,PfCRT,72C>S,18,0.05376344086021507,140,0.0,3,0.0003759681179036019,Mutant,Forécariah CentrePfCRT72C>S18,143
+45,Forécariah Centre,PfCRT,73V>V,18,0.0,140,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT73V>V18,143
+46,Forécariah Centre,PfCRT,74M>I,18,5.357142857142857,140,0.0,3,0.03746253746253746,Mutant,Forécariah CentrePfCRT74M>I18,143
+47,Forécariah Centre,PfCRT,75N>E,18,5.0,140,0.0,3,0.03496503496503497,Mutant,Forécariah CentrePfCRT75N>E18,143
+48,Forécariah Centre,PfCRT,76K>T,18,5.0,140,0.0,3,0.03496503496503497,Mutant,Forécariah CentrePfCRT76K>T18,143
+49,Forécariah Centre,PfCRT,93T>S,18,0.0,145,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT93T>S18,148
+50,Forécariah Centre,PfCRT,97H>Y,18,0.0,145,0.0,3,0.0,Wildtype,Forécariah CentrePfCRT97H>Y18,148
+51,Forécariah Centre,PfMDR1,1034S>C,18,0.0,144,0.0,7,0.0,Wildtype,Forécariah CentrePfMDR11034S>C18,151
+52,Forécariah Centre,PfMDR1,1042N>D,18,0.0,144,0.0,7,0.0,Wildtype,Forécariah CentrePfMDR11042N>D18,151
+53,Forécariah Centre,PfMDR1,1246D>Y,18,0.0,139,0.0,7,0.0,Wildtype,Forécariah CentrePfMDR11246D>Y18,146
+54,Forécariah Centre,PfMDR1,184Y>F,18,81.04423475075649,144,3.0,7,0.5565843360977251,Mutant,Forécariah CentrePfMDR1184Y>F18,151
+55,Forécariah Centre,PfMDR1,86N>Y,18,0.9090909090909093,94,0.0,7,0.009000900090009003,Mutant,Forécariah CentrePfMDR186N>Y18,101
+56,Forécariah Centre,mitochondrial_genome,258I>M,18,0.1492537313432836,194,0.0,7,0.0007425558773297692,Mutant,Forécariah Centremitochondrial_genome258I>M18,201
+57,Forécariah Centre,mitochondrial_genome,268Y>N,18,0.0,194,0.0,7,0.0,Wildtype,Forécariah Centremitochondrial_genome268Y>N18,201
+58,Labé,DHFR,108S>N,18,75.7899136799816,81,10.0,10,0.9427463041756219,Mutant,LabéDHFR108S>N18,91
+59,Labé,DHFR,164I>L,18,0.0,81,0.0,10,0.0,Wildtype,LabéDHFR164I>L18,91
+60,Labé,DHFR,16A>V,18,0.0,81,0.0,10,0.0,Wildtype,LabéDHFR16A>V18,91
+61,Labé,DHFR,51N>I,18,71.96642595616724,81,10.0,10,0.9007299555622774,Mutant,LabéDHFR51N>I18,91
+62,Labé,DHFR,59C>R,18,75.78176269347176,81,9.0,10,0.9316677219062831,Mutant,LabéDHFR59C>R18,91
+63,Labé,DHPS,436S>A,18,22.703266497601437,86,5.0,10,0.2885756926833483,Mutant,LabéDHPS436S>A18,96
+64,Labé,DHPS,437A>G,18,156.2521109748409,172,18.0,18,0.9171163735517942,Mutant,LabéDHPS437A>G18,190
+65,Labé,DHPS,540K>E,18,4.4411764705882355,86,0.0,10,0.046262254901960786,Mutant,LabéDHPS540K>E18,96
+66,Labé,DHPS,581A>G,18,0.0,86,0.0,10,0.0,Wildtype,LabéDHPS581A>G18,96
+67,Labé,DHPS,613A>S,18,11.113390512886134,86,0.0,10,0.11576448450923056,Mutant,LabéDHPS613A>S18,96
+68,Labé,K13,441P>L,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13441P>L18,96
+69,Labé,K13,446F>I,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13446F>I18,96
+70,Labé,K13,449G>A,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13449G>A18,96
+71,Labé,K13,458N>Y,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13458N>Y18,96
+72,Labé,K13,469C>F,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13469C>F18,96
+73,Labé,K13,469C>Y,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13469C>Y18,96
+74,Labé,K13,476M>I,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13476M>I18,96
+75,Labé,K13,481A>V,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13481A>V18,96
+76,Labé,K13,493Y>H,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13493Y>H18,96
+77,Labé,K13,515R>K,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13515R>K18,96
+78,Labé,K13,527P>H,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13527P>H18,96
+79,Labé,K13,537N>I,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13537N>I18,96
+80,Labé,K13,538G>V,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13538G>V18,96
+81,Labé,K13,539R>T,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13539R>T18,96
+82,Labé,K13,543I>T,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13543I>T18,96
+83,Labé,K13,553P>L,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13553P>L18,96
+84,Labé,K13,561R>H,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13561R>H18,96
+85,Labé,K13,568V>G,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13568V>G18,96
+86,Labé,K13,574P>L,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13574P>L18,96
+87,Labé,K13,578A>S,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13578A>S18,96
+88,Labé,K13,580C>Y,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13580C>Y18,96
+89,Labé,K13,584D>V,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13584D>V18,96
+90,Labé,K13,622R>I,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13622R>I18,96
+91,Labé,K13,675A>V,18,0.0,86,0.0,10,0.0,Wildtype,LabéK13675A>V18,96
+92,Labé,PfCRT,145F>I,18,0.0,81,0.0,4,0.0,Wildtype,LabéPfCRT145F>I18,85
+93,Labé,PfCRT,218I>F,18,0.0,65,0.0,4,0.0,Wildtype,LabéPfCRT218I>F18,69
+94,Labé,PfCRT,220A>S,18,16.25,65,2.0,4,0.2644927536231884,Mutant,LabéPfCRT220A>S18,69
+95,Labé,PfCRT,271Q>E,18,2.5,50,0.0,4,0.046296296296296294,Mutant,LabéPfCRT271Q>E18,54
+96,Labé,PfCRT,326N>S,18,0.0,10,0.0,4,0.0,Wildtype,LabéPfCRT326N>S18,14
+97,Labé,PfCRT,343M>L,18,0.0,70,0.0,4,0.0,Wildtype,LabéPfCRT343M>L18,74
+98,Labé,PfCRT,350C>R,18,0.0,70,0.0,4,0.0,Wildtype,LabéPfCRT350C>R18,74
+99,Labé,PfCRT,353G>V,18,0.0,70,0.0,4,0.0,Wildtype,LabéPfCRT353G>V18,74
+100,Labé,PfCRT,356I>T,18,7.5,65,0.0,4,0.10869565217391304,Mutant,LabéPfCRT356I>T18,69
+101,Labé,PfCRT,371R>I,18,0.0,5,0.0,4,0.0,Wildtype,LabéPfCRT371R>I18,9
+102,Labé,PfCRT,72C>S,18,0.0,76,0.0,4,0.0,Wildtype,LabéPfCRT72C>S18,80
+103,Labé,PfCRT,73V>V,18,0.0,76,0.0,4,0.0,Wildtype,LabéPfCRT73V>V18,80
+104,Labé,PfCRT,74M>I,18,15.753968253968253,76,0.0,4,0.19692460317460317,Mutant,LabéPfCRT74M>I18,80
+105,Labé,PfCRT,75N>E,18,18.59879584017515,81,0.0,4,0.21880936282559,Mutant,LabéPfCRT75N>E18,85
+106,Labé,PfCRT,76K>T,18,16.752136752136753,76,0.0,4,0.2094017094017094,Mutant,LabéPfCRT76K>T18,80
+107,Labé,PfCRT,93T>S,18,0.2272727272727273,81,0.0,4,0.0026737967914438505,Mutant,LabéPfCRT93T>S18,85
+108,Labé,PfCRT,97H>Y,18,0.0,81,0.0,4,0.0,Wildtype,LabéPfCRT97H>Y18,85
+109,Labé,PfMDR1,1034S>C,18,0.0,56,0.0,8,0.0,Wildtype,LabéPfMDR11034S>C18,64
+110,Labé,PfMDR1,1042N>D,18,0.0,56,0.0,8,0.0,Wildtype,LabéPfMDR11042N>D18,64
+111,Labé,PfMDR1,1246D>Y,18,2.5,45,0.0,8,0.04716981132075472,Mutant,LabéPfMDR11246D>Y18,53
+112,Labé,PfMDR1,184Y>F,18,44.14682539682539,55,4.0,8,0.7642353237591332,Mutant,LabéPfMDR1184Y>F18,63
+113,Labé,PfMDR1,86N>Y,18,10.0,35,0.0,8,0.23255813953488372,Mutant,LabéPfMDR186N>Y18,43
+114,Labé,mitochondrial_genome,258I>M,18,0.0,86,0.0,10,0.0,Wildtype,Labémitochondrial_genome258I>M18,96
+115,Labé,mitochondrial_genome,268Y>N,18,0.0,86,0.0,10,0.0,Wildtype,Labémitochondrial_genome268Y>N18,96
+116,Nzérékoré,DHFR,108S>N,19,165.13367564406403,172,1.0,2,0.9547912393337014,Mutant,NzérékoréDHFR108S>N19,174
+117,Nzérékoré,DHFR,164I>L,19,0.0,172,0.0,2,0.0,Wildtype,NzérékoréDHFR164I>L19,174
+118,Nzérékoré,DHFR,16A>V,19,0.0,167,0.0,2,0.0,Wildtype,NzérékoréDHFR16A>V19,169
+119,Nzérékoré,DHFR,51N>I,19,159.61206120179884,172,1.0,2,0.9230578229988439,Mutant,NzérékoréDHFR51N>I19,174
+120,Nzérékoré,DHFR,59C>R,19,165.62440606405232,172,1.0,2,0.957611529103749,Mutant,NzérékoréDHFR59C>R19,174
+121,Nzérékoré,DHPS,436S>A,19,73.95231470856338,182,1.0,2,0.40734953645958355,Mutant,NzérékoréDHPS436S>A19,184
+122,Nzérékoré,DHPS,437A>G,19,317.23736755149633,344,4.0,4,0.9230958837686676,Mutant,NzérékoréDHPS437A>G19,348
+123,Nzérékoré,DHPS,540K>E,19,12.98356790669458,172,0.0,2,0.07461820636031367,Mutant,NzérékoréDHPS540K>E19,174
+124,Nzérékoré,DHPS,581A>G,19,5.459757170194811,172,0.0,2,0.03137791477123455,Mutant,NzérékoréDHPS581A>G19,174
+125,Nzérékoré,DHPS,613A>S,19,31.25046892075211,182,1.0,2,0.17527428761278321,Mutant,NzérékoréDHPS613A>S19,184
+126,Nzérékoré,K13,441P>L,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13441P>L19,179
+127,Nzérékoré,K13,446F>I,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13446F>I19,179
+128,Nzérékoré,K13,449G>A,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13449G>A19,179
+129,Nzérékoré,K13,458N>Y,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13458N>Y19,179
+130,Nzérékoré,K13,469C>F,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13469C>F19,179
+131,Nzérékoré,K13,469C>Y,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13469C>Y19,179
+132,Nzérékoré,K13,476M>I,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13476M>I19,179
+133,Nzérékoré,K13,481A>V,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13481A>V19,179
+134,Nzérékoré,K13,493Y>H,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13493Y>H19,179
+135,Nzérékoré,K13,515R>K,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13515R>K19,179
+136,Nzérékoré,K13,527P>H,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13527P>H19,179
+137,Nzérékoré,K13,537N>I,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13537N>I19,179
+138,Nzérékoré,K13,538G>V,19,0.1497005988023952,177,0.0,2,0.0008363161944267888,Mutant,NzérékoréK13538G>V19,179
+139,Nzérékoré,K13,539R>T,19,0.05681818181818182,177,0.0,2,0.0003174200101574404,Mutant,NzérékoréK13539R>T19,179
+140,Nzérékoré,K13,543I>T,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13543I>T19,179
+141,Nzérékoré,K13,553P>L,19,0.06451612903225806,177,0.0,2,0.0003604253018561903,Mutant,NzérékoréK13553P>L19,179
+142,Nzérékoré,K13,561R>H,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13561R>H19,179
+143,Nzérékoré,K13,568V>G,19,0.05847953216374268,177,0.0,2,0.00032670129700414907,Mutant,NzérékoréK13568V>G19,179
+144,Nzérékoré,K13,574P>L,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13574P>L19,179
+145,Nzérékoré,K13,578A>S,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13578A>S19,179
+146,Nzérékoré,K13,580C>Y,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13580C>Y19,179
+147,Nzérékoré,K13,584D>V,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13584D>V19,179
+148,Nzérékoré,K13,622R>I,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13622R>I19,179
+149,Nzérékoré,K13,675A>V,19,0.0,177,0.0,2,0.0,Wildtype,NzérékoréK13675A>V19,179
+150,Nzérékoré,PfCRT,145F>I,19,0.1,152,0.0,2,0.0006493506493506494,Mutant,NzérékoréPfCRT145F>I19,154
+151,Nzérékoré,PfCRT,218I>F,19,0.0,132,0.0,2,0.0,Wildtype,NzérékoréPfCRT218I>F19,134
+152,Nzérékoré,PfCRT,220A>S,19,7.665504121750159,132,0.0,2,0.05720525463992656,Mutant,NzérékoréPfCRT220A>S19,134
+153,Nzérékoré,PfCRT,271Q>E,19,9.529650436953808,125,0.0,2,0.07503661761380952,Mutant,NzérékoréPfCRT271Q>E19,127
+154,Nzérékoré,PfCRT,326N>S,19,0.0,75,0.0,2,0.0,Wildtype,NzérékoréPfCRT326N>S19,77
+155,Nzérékoré,PfCRT,343M>L,19,0.29411764705882354,142,0.0,2,0.002042483660130719,Mutant,NzérékoréPfCRT343M>L19,144
+156,Nzérékoré,PfCRT,350C>R,19,0.0,142,0.0,2,0.0,Wildtype,NzérékoréPfCRT350C>R19,144
+157,Nzérékoré,PfCRT,353G>V,19,0.0,142,0.0,2,0.0,Wildtype,NzérékoréPfCRT353G>V19,144
+158,Nzérékoré,PfCRT,356I>T,19,0.37030346820809246,142,0.0,2,0.0025715518625561975,Mutant,NzérékoréPfCRT356I>T19,144
+159,Nzérékoré,PfCRT,371R>I,19,5.0,70,0.0,2,0.06944444444444445,Mutant,NzérékoréPfCRT371R>I19,72
+160,Nzérékoré,PfCRT,72C>S,19,0.0,157,0.0,2,0.0,Wildtype,NzérékoréPfCRT72C>S19,159
+161,Nzérékoré,PfCRT,73V>V,19,0.15625,157,0.0,2,0.0009827044025157233,Mutant,NzérékoréPfCRT73V>V19,159
+162,Nzérékoré,PfCRT,74M>I,19,13.215102974828376,157,0.0,2,0.08311385518759985,Mutant,NzérékoréPfCRT74M>I19,159
+163,Nzérékoré,PfCRT,75N>E,19,13.215102974828376,157,0.0,2,0.08311385518759985,Mutant,NzérékoréPfCRT75N>E19,159
+164,Nzérékoré,PfCRT,76K>T,19,13.215102974828376,157,0.0,2,0.08311385518759985,Mutant,NzérékoréPfCRT76K>T19,159
+165,Nzérékoré,PfCRT,93T>S,19,0.0,157,0.0,2,0.0,Wildtype,NzérékoréPfCRT93T>S19,159
+166,Nzérékoré,PfCRT,97H>Y,19,0.0,157,0.0,2,0.0,Wildtype,NzérékoréPfCRT97H>Y19,159
+167,Nzérékoré,PfMDR1,1034S>C,19,2.855614973262032,167,0.0,2,0.016897130019301963,Mutant,NzérékoréPfMDR11034S>C19,169
+168,Nzérékoré,PfMDR1,1042N>D,19,0.0,167,0.0,2,0.0,Wildtype,NzérékoréPfMDR11042N>D19,169
+169,Nzérékoré,PfMDR1,1246D>Y,19,8.4817580508836,157,0.0,2,0.053344390257129566,Mutant,NzérékoréPfMDR11246D>Y19,159
+170,Nzérékoré,PfMDR1,184Y>F,19,95.98064345445084,165,0.0,2,0.5747343919428194,Mutant,NzérékoréPfMDR1184Y>F19,167
+171,Nzérékoré,PfMDR1,86N>Y,19,14.941258234335834,142,0.0,2,0.1037587377384433,Mutant,NzérékoréPfMDR186N>Y19,144
+172,Nzérékoré,mitochondrial_genome,258I>M,19,0.0,182,0.0,2,0.0,Wildtype,Nzérékorémitochondrial_genome258I>M19,184
+173,Nzérékoré,mitochondrial_genome,268Y>N,19,0.0,182,0.0,2,0.0,Wildtype,Nzérékorémitochondrial_genome268Y>N19,184
