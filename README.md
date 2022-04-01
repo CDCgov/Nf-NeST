@@ -72,7 +72,7 @@ NeST is a python based modular framework for consensus based variant calling. Th
    singularity run -B $(pwd)/testrun:/data/testrun,$(pwd)/pyscripts:/data/pyscripts nfnest_singularity_latest.sif nextflow run /data/nfNeST_singularity.nf -c /data/testrun/nextflow1.config -with-report /data/testrun/test_output.html
     ```
 
-## Executing your own analysis using Nf-NeST:   
+## Running your own analysis using Nf-NeST:   
 
    Copy your inputs under the folder `inputfiles`. By default, configuration file for this folder is in here as `nextflow.config`
 
