@@ -2,10 +2,15 @@
 
 
 Org: NCEZID
+
 Version: 1
+
 Status: Maintained
+
 Keywords: malaria, drug resistance, surveillance, automation, visualization, genotyping, AMD
+
 Labor Hours: 1000
+
 Contact: ncezid_shareit@cdc.gov
 
 This Nf-NeST is a nextflow-Docker version of Next-generation Sequence-analysis Toolkit (NeST) with improved snpfilter function
